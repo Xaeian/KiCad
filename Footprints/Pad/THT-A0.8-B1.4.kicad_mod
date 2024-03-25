@@ -1,0 +1,12 @@
+(module HOLE-A0.8-B1.6 (layer F.Cu) (tedit 5C7BBE37)
+  (fp_text reference REF** (at 0 1.2) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.07)))
+  )
+  (fp_text value 0,8MM (at 0 -1.2) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.07)))
+  )
+  (fp_arc (start 0 0) (end -0.8 0) (angle 90) (layer F.SilkS) (width 0.08))
+  (fp_arc (start 0 0) (end 0.8 0) (angle 90) (layer F.SilkS) (width 0.08))
+  (fp_circle (center 0 0) (end 0.8 0) (layer F.CrtYd) (width 0.05))
+  (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask))
+)

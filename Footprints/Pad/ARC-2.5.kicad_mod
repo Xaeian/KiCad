@@ -1,0 +1,11 @@
+(module ARC-2.5 (layer F.Cu) (tedit 5D1F8C8D)
+  (fp_text reference REF** (at 0 0.5) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.08)))
+  )
+  (fp_text value ARC-2.5 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 0.5 0.5) (thickness 0.08)))
+  )
+  (fp_arc (start 0 0) (end 0 -2.5) (angle -90) (layer F.Cu) (width 0.5))
+  (pad 1 smd circle (at -2.5 0) (size 0.5 0.5) (layers F.Cu))
+  (pad 1 smd circle (at 0 -2.5) (size 0.5 0.5) (layers F.Cu))
+)

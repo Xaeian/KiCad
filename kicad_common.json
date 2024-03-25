@@ -1,0 +1,11 @@
+{
+  "environment": {
+    "vars": {
+      "L3D": "C:/KiCad/Models",
+      "LFP": "C:/KiCad/Footprints",
+      "LIB": "C:/KiCad",
+      "LSB": "C:/KiCad/Symbols",
+      "LSM": "C:/KiCad/Spiece"
+    }
+  }
+}
