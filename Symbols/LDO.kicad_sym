@@ -1,604 +1,1948 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "AMS1117" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC16" (at 0 6.858 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "AMS1117" (at 0 5.08 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT223" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Advanced Monolithic Systems" (at 0 -11.43 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "AMS1117-3.3" (at 0 -12.7 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "Imax:1A; Vin:15V;" (at 0 -13.97 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "LCSC" "C6186" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "AMS1117_0_1"
-      (rectangle (start -3.81 2.54) (end 3.81 -2.54)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 2.54)
-          (xy 3.302 3.302)
-          (xy 2.794 3.81)
-          (xy -2.794 3.81)
-          (xy -3.302 3.302)
-          (xy -3.302 2.54)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "AMS1117_1_1"
-      (pin power_in line (at 0 -3.81 90) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 1.27 180) (length 1.27)
-        (name "VO" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 1.27 0) (length 1.27)
-        (name "VI" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "AP7354" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 6.35 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "AP7354" (at 0 8.128 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT23-5" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/AP7354.pdf" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Diodes Incorporated" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "AP7354D-33W5-7" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "Imax:150mA; Vin:5.5V; Iq:0.25µA;" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "AP7354_0_1"
-      (rectangle (start -3.81 3.81) (end 3.81 -3.81)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 3.81)
-          (xy 3.302 4.572)
-          (xy 2.794 5.08)
-          (xy -2.794 5.08)
-          (xy -3.302 4.572)
-          (xy -3.302 3.81)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "AP7354_1_1"
-      (pin power_in line (at -5.08 2.54 0) (length 1.27)
-        (name "VIN" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 -2.54 0) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -5.08 0 0) (length 1.27)
-        (name "EN" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 5.08 -2.54 180) (length 1.27)
-        (name "NC/ADJ" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 2.54 180) (length 1.27)
-        (name "VO" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "AP2205" (extends "AP7354")
-    (property "Reference" "IC" (at 0 6.35 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "AP2205" (at 0 8.128 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT23-5" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/AP2205.pdf" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-  )
-  (symbol "LDCL015" (extends "AP7354")
-    (property "Reference" "IC" (at 0 6.35 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "LDCL015" (at 0 8.128 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT23-5" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/LDCL015.pdf" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-  )
-  (symbol "AP7381" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 5.08 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "AP7381" (at 0 6.858 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "" (at 0 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/AP7381.pdf" (at 0 -13.97 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Diodes Incorporated" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "AP7381-33SA-7" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "Imax:150mA; Vin:40V;" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "AP7381_0_1"
-      (rectangle (start -3.81 2.54) (end 3.81 -2.54)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 2.54)
-          (xy 3.302 3.302)
-          (xy 2.794 3.81)
-          (xy -2.794 3.81)
-          (xy -3.302 3.302)
-          (xy -3.302 2.54)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "AP7381_1_1"
-      (pin power_in line (at -5.08 1.27 0) (length 1.27)
-        (name "VI" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 -3.81 90) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 1.27 180) (length 1.27)
-        (name "VO" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "LT3045" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 8.89 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "LT3045" (at 0 10.414 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "" (at 1.27 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "" (at 7.62 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Analog Devices" (at 0 -12.7 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "LT3045EMSE" (at 0 -13.97 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "20V; 500mA; Ultralow Noise;" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "LT3045_0_1"
-      (rectangle (start -4.445 6.35) (end 4.445 -11.43)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 6.35)
-          (xy 3.302 7.112)
-          (xy 2.794 7.62)
-          (xy -2.794 7.62)
-          (xy -3.302 7.112)
-          (xy -3.302 6.35)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "LT3045_1_1"
-      (pin power_in line (at 6.35 -10.16 180) (length 1.905)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "0" (effects (font (size 0.635 0.635))))
-      )
-      (pin power_in line (at -6.35 5.08 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 0 180) (length 1.905)
-        (name "OUT2" (effects (font (size 0.635 0.635))))
-        (number "10" (effects (font (size 0.635 0.635))))
-      )
-      (pin passive line (at 6.35 2.54 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "11" (effects (font (size 0.635 0.635))))
-      )
-      (pin passive line (at 6.35 5.08 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "12" (effects (font (size 0.635 0.635))))
-      )
-      (pin power_in line (at -6.35 2.54 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 0 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 -2.54 0) (length 1.905)
-        (name "EN/UV" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 -5.08 0) (length 1.905)
-        (name "PG" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 -5.08 180) (length 1.905)
-        (name "ILIM" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 -2.54 180) (length 1.905)
-        (name "PGFB" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 -7.62 0) (length 1.905)
-        (name "SET" (effects (font (size 0.635 0.635))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 6.35 -7.62 180) (length 1.905)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "9" (effects (font (size 0.635 0.635))))
-      )
-    )
-  )
-  (symbol "LT3086" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 17.78 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "LT3086" (at 0 19.304 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "" (at 1.27 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/LT3086.pdf" (at 1.27 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Analog Devices" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "LT3086EFE" (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "40V; 2.1A; Cable Drop Compensation;" (at 0 -20.32 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "LT3086_0_1"
-      (rectangle (start -4.445 15.24) (end 4.445 -15.24)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 15.24)
-          (xy 3.302 16.002)
-          (xy 2.794 16.51)
-          (xy -2.794 16.51)
-          (xy -3.302 16.002)
-          (xy -3.302 15.24)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "LT3086_1_1"
-      (pin power_in line (at 6.35 -13.97 180) (length 1.905)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "0" (effects (font (size 0.635 0.635))))
-      )
-      (pin power_in line (at -6.35 13.97 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "10" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 11.43 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "11" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 6.35 0) (length 1.905)
-        (name "~{SHDN}" (effects (font (size 0.635 0.635))))
-        (number "12" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 3.81 0) (length 1.905)
-        (name "TEMP" (effects (font (size 0.635 0.635))))
-        (number "13" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 1.27 0) (length 1.905)
-        (name "TRACK" (effects (font (size 0.635 0.635))))
-        (number "14" (effects (font (size 0.762 0.762))))
-      )
-      (pin output line (at 6.35 -10.16 180) (length 1.905)
-        (name "PG" (effects (font (size 0.635 0.635))))
-        (number "15" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -6.35 -3.81 0) (length 1.905)
-        (name "IMON/ILIM" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 -3.81 180) (length 1.905)
-        (name "CDC" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 -7.62 180) (length 1.905)
-        (name "RPG" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 3.81 180) (length 1.905)
-        (name "SET" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 13.97 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 11.43 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 -11.43 0) (length 1.905)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "8" (effects (font (size 0.635 0.635))))
-      )
-      (pin power_in line (at -6.35 -13.97 0) (length 1.905)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "9" (effects (font (size 0.635 0.635))))
-      )
-    )
-  )
-  (symbol "LT3091" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 17.78 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "LT3091" (at 0 19.304 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "" (at 1.27 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/LT3091.pdf" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Analog Devices" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "LT3091IFE" (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "–36V; 1.5A; Negative;" (at 0 -20.32 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "LT3091_0_1"
-      (rectangle (start -4.445 15.24) (end 4.445 -15.24)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 15.24)
-          (xy 3.302 16.002)
-          (xy 2.794 16.51)
-          (xy -2.794 16.51)
-          (xy -3.302 16.002)
-          (xy -3.302 15.24)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "LT3091_1_1"
-      (pin power_in line (at -6.35 12.7 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "0" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 10.16 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 -2.54 0) (length 1.905)
-        (name "~{SHDN}" (effects (font (size 0.635 0.635))))
-        (number "10" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 -2.54 180) (length 1.905)
-        (name "SET" (effects (font (size 0.635 0.635))))
-        (number "11" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 6.35 -12.7 180) (length 1.905)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "12" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 6.35 12.7 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "13" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 6.35 10.16 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "14" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 6.35 7.62 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "15" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 6.35 5.08 180) (length 1.905)
-        (name "OUT" (effects (font (size 0.635 0.635))))
-        (number "16" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 7.62 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 5.08 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -6.35 2.54 0) (length 1.905)
-        (name "IN" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 -12.7 0) (length 1.905)
-        (name "ILIM" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin output line (at -6.35 -6.35 0) (length 1.905)
-        (name "IMONP" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin output line (at -6.35 -8.89 0) (length 1.905)
-        (name "IMONN" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 -6.35 180) (length 1.905)
-        (name "NC" (effects (font (size 0.635 0.635))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 6.35 -8.89 180) (length 1.905)
-        (name "NC" (effects (font (size 0.635 0.635))))
-        (number "9" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "MCP1501" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 6.35 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "MCP1501" (at 0 8.128 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT23-6" (at 0 -12.7 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/datasheet/MCP1501.pdf" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Microchip" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "579-MCP1501T-25E/CHY" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "20mA;" (at 0 -11.43 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "MCP1501_0_1"
-      (polyline
-        (pts
-          (xy -3.175 3.81)
-          (xy -3.175 4.445)
-          (xy -2.54 5.08)
-          (xy 2.54 5.08)
-          (xy 3.175 4.445)
-          (xy 3.175 3.81)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-      (rectangle (start 3.81 3.81) (end -3.81 -6.35)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-    )
-    (symbol "MCP1501_1_1"
-      (pin power_out line (at 5.08 2.54 180) (length 1.27)
-        (name "VO" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 5.08 0 180) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 5.08 -2.54 180) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -5.08 -5.08 0) (length 1.27)
-        (name "EN" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 5.08 -5.08 180) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 2.54 0) (length 1.27)
-        (name "VI" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 2.54 0) (length 1.27)
-        (name "VI" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "AMS1117"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC16"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AMS1117"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT223"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Imax:1A; Vin:15V;"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Advanced Monolithic Systems"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AMS1117-3.3"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6186"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AMS1117_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 2.54) (xy 3.302 3.302) (xy 2.794 3.81) (xy -2.794 3.81) (xy -3.302 3.302) (xy -3.302 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "AMS1117_1_1"
+			(pin power_in line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 1.27 180)
+				(length 1.27)
+				(name "VO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 1.27 0)
+				(length 1.27)
+				(name "VI"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AP7354"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AP7354"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-5"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/datasheet/AP7354.pdf"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Imax:150mA; Vin:5.5V; Iq:0.25µA;"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AP7354D-33W5-7"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP7354_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 3.81) (xy 3.302 4.572) (xy 2.794 5.08) (xy -2.794 5.08) (xy -3.302 4.572) (xy -3.302 3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "AP7354_1_1"
+			(pin power_in line
+				(at -5.08 2.54 0)
+				(length 1.27)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -2.54 0)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 1.27)
+				(name "EN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 1.27)
+				(name "NC/ADJ"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 2.54 180)
+				(length 1.27)
+				(name "VO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AP7381"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AP7381"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/datasheet/AP7381.pdf"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Imax:150mA; Vin:40V;"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AP7381-33SA-7"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP7381_0_1"
+			(rectangle
+				(start -3.81 2.54)
+				(end 3.81 -2.54)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 2.54) (xy 3.302 3.302) (xy 2.794 3.81) (xy -2.794 3.81) (xy -3.302 3.302) (xy -3.302 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "AP7381_1_1"
+			(pin power_in line
+				(at -5.08 1.27 0)
+				(length 1.27)
+				(name "VI"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 1.27 180)
+				(length 1.27)
+				(name "VO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LT3045"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "LT3045"
+			(at 0 10.414 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 7.62 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V; 500mA; Ultralow Noise;"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "LT3045EMSE"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LT3045_0_1"
+			(rectangle
+				(start -4.445 6.35)
+				(end 4.445 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 6.35) (xy 3.302 7.112) (xy 2.794 7.62) (xy -2.794 7.62) (xy -3.302 7.112) (xy -3.302 6.35)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "LT3045_1_1"
+			(pin power_in line
+				(at 6.35 -10.16 180)
+				(length 1.905)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 5.08 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 180)
+				(length 1.905)
+				(name "OUT2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 2.54 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 5.08 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 2.54 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 0 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 1.905)
+				(name "EN/UV"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -5.08 0)
+				(length 1.905)
+				(name "PG"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -5.08 180)
+				(length 1.905)
+				(name "ILIM"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -2.54 180)
+				(length 1.905)
+				(name "PGFB"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -7.62 0)
+				(length 1.905)
+				(name "SET"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -7.62 180)
+				(length 1.905)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LT3086"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "LT3086"
+			(at 0 19.304 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/datasheet/LT3086.pdf"
+			(at 1.27 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V; 2.1A; Cable Drop Compensation;"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "LT3086EFE"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LT3086_0_1"
+			(rectangle
+				(start -4.445 15.24)
+				(end 4.445 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 15.24) (xy 3.302 16.002) (xy 2.794 16.51) (xy -2.794 16.51) (xy -3.302 16.002) (xy -3.302 15.24)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "LT3086_1_1"
+			(pin power_in line
+				(at 6.35 -13.97 180)
+				(length 1.905)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 13.97 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 11.43 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 6.35 0)
+				(length 1.905)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 1.905)
+				(name "TEMP"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 1.27 0)
+				(length 1.905)
+				(name "TRACK"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 -10.16 180)
+				(length 1.905)
+				(name "PG"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -3.81 0)
+				(length 1.905)
+				(name "IMON/ILIM"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -3.81 180)
+				(length 1.905)
+				(name "CDC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -7.62 180)
+				(length 1.905)
+				(name "RPG"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 3.81 180)
+				(length 1.905)
+				(name "SET"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 13.97 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 11.43 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 -11.43 0)
+				(length 1.905)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 -13.97 0)
+				(length 1.905)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LT3091"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "LT3091"
+			(at 0 19.304 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/datasheet/LT3091.pdf"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "–36V; 1.5A; Negative;"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "LT3091IFE"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LT3091_0_1"
+			(rectangle
+				(start -4.445 15.24)
+				(end 4.445 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 15.24) (xy 3.302 16.002) (xy 2.794 16.51) (xy -2.794 16.51) (xy -3.302 16.002) (xy -3.302 15.24)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "LT3091_1_1"
+			(pin power_in line
+				(at -6.35 12.7 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 10.16 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 1.905)
+				(name "~{SHDN}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -2.54 180)
+				(length 1.905)
+				(name "SET"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -12.7 180)
+				(length 1.905)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 12.7 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 10.16 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 7.62 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 5.08 180)
+				(length 1.905)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 7.62 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 5.08 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -6.35 2.54 0)
+				(length 1.905)
+				(name "IN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -12.7 0)
+				(length 1.905)
+				(name "ILIM"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -6.35 0)
+				(length 1.905)
+				(name "IMONP"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -8.89 0)
+				(length 1.905)
+				(name "IMONN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -6.35 180)
+				(length 1.905)
+				(name "NC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -8.89 180)
+				(length 1.905)
+				(name "NC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MCP1501"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MCP1501"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-6"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://sqrt.pl/doc/MCP1501.pdf"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20mA;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "MCP1501T-30E/CHY"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCP1501_0_1"
+			(polyline
+				(pts
+					(xy -3.175 3.81) (xy -3.175 4.445) (xy -2.54 5.08) (xy 2.54 5.08) (xy 3.175 4.445) (xy 3.175 3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 3.81 3.81)
+				(end -3.81 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MCP1501_1_1"
+			(pin power_out line
+				(at 5.08 2.54 180)
+				(length 1.27)
+				(name "VO"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -2.54 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 1.27)
+				(name "EN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -5.08 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 2.54 0)
+				(length 1.27)
+				(name "VI"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AP2205"
+		(extends "AP7354")
+		(property "Reference" "IC"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AP2205"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-5"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/datasheet/AP2205.pdf"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "LDCL015"
+		(extends "AP7354")
+		(property "Reference" "IC"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "LDCL015"
+			(at 0 8.128 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-5"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/datasheet/LDCL015.pdf"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 )
