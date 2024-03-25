@@ -1,312 +1,1203 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "AOZ1282" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 7.366 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "AOZ1282" (at 0 8.89 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT23-6" (at 0 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "http://sqrt.pl/datasheet/AOZ1282CI.pdf" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Alpha & Omega Semiconductor" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "AOZ1282CI " (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "TME" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "Buck converter; 2.1MHz; 4÷36V to 1÷28V; 1A;" (at 0 -20.32 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "AOZ1282_0_1"
-      (rectangle (start -3.81 5.08) (end 3.81 -3.81)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 5.08)
-          (xy 3.302 5.842)
-          (xy 2.794 6.35)
-          (xy -2.794 6.35)
-          (xy -3.302 5.842)
-          (xy -3.302 5.08)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "AOZ1282_1_1"
-      (pin passive line (at 5.08 1.27 180) (length 1.27)
-        (name "BS" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 -5.08 90) (length 1.27)
-        (name "GND" (effects (font (size 0.508 0.508))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 5.08 -2.54 180) (length 1.27)
-        (name "FB" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -5.08 -2.54 0) (length 1.27)
-        (name "EN" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 3.81 0) (length 1.27)
-        (name "VIN" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 3.81 180) (length 1.27)
-        (name "LX" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "LMR50410" (extends "AOZ1282")
-    (property "Reference" "IC" (at 0 7.366 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "LMR50410" (at 0 8.89 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOT-SMD:SOT23-6" (at 0 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "" (at 0 -15.24 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-  )
-  (symbol "LM2596" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "BUCK" (at 0 5.842 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "LM2596" (at 0 7.112 0)
-      (effects (font (size 0.762 0.762) bold))
-    )
-    (property "Footprint" "" (at 0 -2.54 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "LM2596_0_1"
-      (rectangle (start -3.81 3.81) (end 3.81 -3.81)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 3.81)
-          (xy 3.302 4.572)
-          (xy 2.794 5.08)
-          (xy -2.794 5.08)
-          (xy -3.302 4.572)
-          (xy -3.302 3.81)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "LM2596_1_1"
-      (pin power_in line (at -5.08 2.54 0) (length 1.27)
-        (name "VI" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 2.54 180) (length 1.27)
-        (name "VO" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 -2.54 0) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 0 180) (length 1.27)
-        (name "FB" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 -2.54 180) (length 1.27)
-        (name "ON/OFF" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "MIC2405x" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 12.7 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "MIC2405x" (at 0 14.478 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "Scalaki:MIC2405x" (at 0 -27.94 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Microchip" (at 0 -22.86 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "MIC24052" (at 0 -24.13 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Mouser" (at 0 -25.4 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "19V; 6A;" (at 0 -26.67 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "MIC2405x_0_1"
-      (rectangle (start -5.08 10.16) (end 5.08 -11.43)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 10.16)
-          (xy 3.302 10.922)
-          (xy 2.794 11.43)
-          (xy -2.794 11.43)
-          (xy -3.302 10.922)
-          (xy -3.302 10.16)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "MIC2405x_1_1"
-      (pin power_out line (at -7.62 6.35 0) (length 2.54)
-        (name "PVDD" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -7.62 -8.89 0) (length 2.54)
-        (name "EN" (effects (font (size 0.635 0.635))))
-        (number "10" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -7.62 -2.54 0) (length 2.54)
-        (name "VIN" (effects (font (size 0.635 0.635))))
-        (number "11" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -7.62 8.89 0) (length 2.54)
-        (name "VDD" (effects (font (size 0.635 0.635))))
-        (number "12" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 1.27 -13.97 90) (length 2.54)
-        (name "PGND" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 7.62 -1.27 180) (length 2.54)
-        (name "SW" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -7.62 -5.08 0) (length 2.54)
-        (name "PVIN" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 7.62 8.89 180) (length 2.54)
-        (name "BST" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 7.62 1.27 180) (length 2.54)
-        (name "CS" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -1.27 -13.97 90) (length 2.54)
-        (name "SGND" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 7.62 -8.89 180) (length 2.54)
-        (name "FB" (effects (font (size 0.635 0.635))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -7.62 2.54 0) (length 2.54)
-        (name "PG" (effects (font (size 0.635 0.635))))
-        (number "9" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "MP9488" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at 0 7.366 0)
-      (effects (font (size 1.016 1.016)))
-    )
-    (property "Value" "MP9488" (at 0 8.89 0)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "SOIC:SOIC8" (at 0 -13.97 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "http://sqrt.pl/doc/MP9488.pdf" (at 0 -12.7 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Alpha & Omega Semiconductor" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "AOZ1282CI " (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "Buck converter; 450V; 300mA;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "LCSC" "C6993407" (at 0 -11.43 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "MP9488_0_1"
-      (rectangle (start -3.81 5.08) (end 3.81 -6.35)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 3.302 5.08)
-          (xy 3.302 5.842)
-          (xy 2.794 6.35)
-          (xy -2.794 6.35)
-          (xy -3.302 5.842)
-          (xy -3.302 5.08)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "MP9488_1_1"
-      (pin input line (at 5.08 -5.08 180) (length 1.27)
-        (name "FB" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at 5.08 -1.27 180) (length 1.27)
-        (name "VCC" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 3.81 180) (length 1.27)
-        (name "SX" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_out line (at 5.08 1.27 180) (length 1.27)
-        (name "SX" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -5.08 0 0) (length 1.27)
-        (name "NC" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 1.27)
-        (name "NC" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -5.08 3.81 0) (length 1.27)
-        (name "VIN" (effects (font (size 0.762 0.762))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin passive line (at -5.08 -5.08 0) (length 1.27)
-        (name "NC" (effects (font (size 0.762 0.762))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "AOZ1282"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AOZ1282"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-6"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://sqrt.pl/datasheet/AOZ1282CI.pdf"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck converter; 2.1MHz; 4÷36V to 1÷28V; 1A;"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AOZ1282CI "
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AOZ1282_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 5.08) (xy 3.302 5.842) (xy 2.794 6.35) (xy -2.794 6.35) (xy -3.302 5.842) (xy -3.302 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "AOZ1282_1_1"
+			(pin passive line
+				(at 5.08 1.27 180)
+				(length 1.27)
+				(name "BS"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 1.27)
+				(name "FB"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 1.27)
+				(name "EN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 3.81 0)
+				(length 1.27)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 3.81 180)
+				(length 1.27)
+				(name "LX"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LM2596"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BUCK"
+			(at 0 5.842 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "LM2596"
+			(at 0 7.112 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM2596_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 3.81) (xy 3.302 4.572) (xy 2.794 5.08) (xy -2.794 5.08) (xy -3.302 4.572) (xy -3.302 3.81)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "LM2596_1_1"
+			(pin power_in line
+				(at -5.08 2.54 0)
+				(length 1.27)
+				(name "VI"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 2.54 180)
+				(length 1.27)
+				(name "VO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -2.54 0)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "FB"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -2.54 180)
+				(length 1.27)
+				(name "ON/OFF"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "M3406"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "M3406"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-5"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://sqrt.pl/doc/M3406.pdf"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck converter; 2-6V; 800mA;"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Aerosemi"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "M3406-ADJ"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C83224"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M3406_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 5.08) (xy 3.302 5.842) (xy 2.794 6.35) (xy -2.794 6.35) (xy -3.302 5.842) (xy -3.302 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "M3406_1_1"
+			(pin input line
+				(at -5.08 -1.27 0)
+				(length 1.27)
+				(name "EN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 3.81 180)
+				(length 1.27)
+				(name "SW"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 3.81 0)
+				(length 1.27)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -1.27 180)
+				(length 1.27)
+				(name "FB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC2405x"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MIC2405x"
+			(at 0 14.478 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Scalaki:MIC2405x"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "19V; 6A;"
+			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "MIC24052"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC2405x_0_1"
+			(rectangle
+				(start -5.08 10.16)
+				(end 5.08 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 10.16) (xy 3.302 10.922) (xy 2.794 11.43) (xy -2.794 11.43) (xy -3.302 10.922) (xy -3.302 10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "MIC2405x_1_1"
+			(pin power_out line
+				(at -7.62 6.35 0)
+				(length 2.54)
+				(name "PVDD"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -8.89 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 8.89 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -13.97 90)
+				(length 2.54)
+				(name "PGND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "PVIN"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 8.89 180)
+				(length 2.54)
+				(name "BST"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 -13.97 90)
+				(length 2.54)
+				(name "SGND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -8.89 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MP9488"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MP9488"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOIC:SOIC8"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://sqrt.pl/doc/MP9488.pdf"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck converter; 450V; 300mA;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AOZ1282CI "
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6993407"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MP9488_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 5.08) (xy 3.302 5.842) (xy 2.794 6.35) (xy -2.794 6.35) (xy -3.302 5.842) (xy -3.302 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "MP9488_1_1"
+			(pin input line
+				(at 5.08 -5.08 180)
+				(length 1.27)
+				(name "FB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -1.27 180)
+				(length 1.27)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 3.81 180)
+				(length 1.27)
+				(name "SX"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 1.27 180)
+				(length 1.27)
+				(name "SX"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 1.27)
+				(name "NC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 1.27)
+				(name "NC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 3.81 0)
+				(length 1.27)
+				(name "VIN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 1.27)
+				(name "NC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LMR50410"
+		(extends "AOZ1282")
+		(property "Reference" "IC"
+			(at 0 7.366 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "LMR50410"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "SOT-SMD:SOT23-6"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 )
