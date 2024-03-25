@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Footprint" "SOT-SMD:SOT23-6"
-			(at 0 -21.59 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -36,33 +36,6 @@
 			)
 		)
 		(property "Datasheet" "http://sqrt.pl/datasheet/AOZ1282CI.pdf"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buck converter; 2.1MHz; 4÷36V to 1÷28V; 1A;"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Alpha & Omega Semiconductor"
-			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "AOZ1282CI "
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -71,8 +44,35 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "Buck converter; 2.1MHz; 4÷36V to 1÷28V; 1A;"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AOZ1282CI "
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
 		(property "Supplier" "TME"
-			(at 0 -19.05 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 0.762 0.762)
