@@ -730,6 +730,255 @@
 			)
 		)
 	)
+	(symbol "BMP280"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "BMP280"
+			(at 0 9.144 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://sqrt.pl/doc/BMP280.pdf"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pressure Sensors;"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bosh"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "BMP280"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C83291"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BMP280_0_1"
+			(rectangle
+				(start -5.08 6.35)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "BMP280_1_1"
+			(circle
+				(center 3.556 -4.826)
+				(radius 0.8032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "CSB"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "SDI"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "VIO"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 5.08 0)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ISM330DHCX"
 		(pin_names
 			(offset 0.254)
@@ -1667,7 +1916,7 @@
 			)
 		)
 		(property "Footprint" "LGA:LGA16"
-			(at 0 -17.78 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1675,8 +1924,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "www.sqrt.pl/datasheet/ISM330DHCX.pdf"
-			(at 0 -12.7 0)
+		(property "Datasheet" "http://sqrt.pl/doc/LIS3DH.pdf"
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2288,7 +2537,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 3.556 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2296,7 +2545,7 @@
 			)
 		)
 		(property "Value" "SHTC3"
-			(at 0 5.08 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2305,6 +2554,15 @@
 			)
 		)
 		(property "Footprint" "Microchip:SHTC3"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://sqrt.pl/doc/SHTC3.pdf"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -2313,17 +2571,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://sqrt.pl/datasheet/SHTC3.pdf"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Humidity and Temperature Sensor;"
-			(at 0 -8.89 0)
+		(property "Description" "Humidity and Temperature Sensor; ±2%RH; ±0.2°C; -40÷125°C;"
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2349,8 +2598,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -7.62 0)
+		(property "LCSC" "C194656"
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2360,8 +2609,8 @@
 		)
 		(symbol "SHTC3_0_1"
 			(rectangle
-				(start -3.81 2.54)
-				(end 3.81 -2.54)
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2372,8 +2621,31 @@
 			)
 		)
 		(symbol "SHTC3_1_1"
+			(circle
+				(center 0 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 1)
+				)
+			)
 			(pin power_in line
-				(at -6.35 1.27 0)
+				(at -6.35 2.54 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2391,7 +2663,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 1.27 180)
+				(at 6.35 2.54 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -2409,7 +2681,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -1.27 180)
+				(at 6.35 -2.54 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -2427,7 +2699,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -1.27 0)
+				(at -6.35 -2.54 0)
 				(length 2.54)
 				(name "GND"
 					(effects
