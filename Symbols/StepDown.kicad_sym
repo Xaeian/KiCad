@@ -1234,7 +1234,7 @@
 		(symbol "TPS54060_0_1"
 			(rectangle
 				(start -5.08 7.62)
-				(end 5.08 -7.62)
+				(end 5.08 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1257,6 +1257,24 @@
 			)
 		)
 		(symbol "TPS54060_1_1"
+			(pin input line
+				(at 6.35 -8.89 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 6.35 3.81 180)
 				(length 1.27)

@@ -1,204 +1,739 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "AT25" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "MEM" (at -0.508 0 90)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "AT25" (at -2.032 0 90)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "" (at -1.27 0 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "www.sqrt.pl/doc/at25sf041-dte.pdf" (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Adesto" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "AT25SF041-SSHD-T" (at 0 -20.32 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "TME" (at 0 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "512kB;" (at 0 -22.86 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "AT25_0_1"
-      (rectangle (start -3.81 5.08) (end 3.81 -5.08)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-    )
-    (symbol "AT25_1_1"
-      (pin input inverted (at 6.35 -3.81 180) (length 2.54)
-        (name "~{CS}" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin output line (at 6.35 1.27 180) (length 2.54)
-        (name "SO" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin input inverted (at -6.35 3.81 0) (length 2.54)
-        (name "~{WP}" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 -6.35 90) (length 1.27)
-        (name "GND" (effects (font (size 0.508 0.508))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 3.81 180) (length 2.54)
-        (name "SI" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 -1.27 180) (length 2.54)
-        (name "SCK" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin input inverted (at -6.35 -3.81 0) (length 2.54)
-        (name "~{HOLD}" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 6.35 270) (length 1.27)
-        (name "VCC" (effects (font (size 0.508 0.508))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "M24C" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "MEM" (at 0.762 0 90)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "M24C" (at -0.762 0 90)
-      (effects (font (size 1.016 1.016) bold))
-    )
-    (property "Footprint" "" (at 0 0 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "ST Microelectronics" (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "M24C02-RMN6TP" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "TME" (at 0 -20.32 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "256B;" (at 0 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "M24C_0_1"
-      (rectangle (start -3.81 5.08) (end 3.81 -5.08)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-    )
-    (symbol "M24C_1_1"
-      (pin input line (at -6.35 3.81 0) (length 2.54)
-        (name "E0" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 1.27 0) (length 2.54)
-        (name "E1" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at -6.35 -1.27 0) (length 2.54)
-        (name "E2" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 -6.35 90) (length 1.27)
-        (name "GND" (effects (font (size 0.508 0.508))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin bidirectional line (at 6.35 1.27 180) (length 2.54)
-        (name "SDA" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin bidirectional line (at 6.35 -1.27 180) (length 2.54)
-        (name "SCL" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin input inverted (at -6.35 -3.81 0) (length 2.54)
-        (name "~{WC}" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 6.35 270) (length 1.27)
-        (name "VCC" (effects (font (size 0.508 0.508))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "MX25R" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "IC" (at -4.318 3.81 0)
-      (effects (font (size 1.016 1.016)) (justify right))
-    )
-    (property "Value" "MX25R" (at -4.318 5.334 0)
-      (effects (font (size 1.016 1.016) bold) (justify right))
-    )
-    (property "Footprint" "" (at -5.08 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -16.51 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Macronix International" (at 0 -17.78 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "MX25R6435FZAIH0" (at 0 -19.05 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Avnet" (at 0 -20.32 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "8MB;" (at 0 -21.59 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "MX25R_0_1"
-      (rectangle (start -3.81 5.08) (end 3.81 -5.08)
-        (stroke (width 0) (type solid))
-        (fill (type background))
-      )
-    )
-    (symbol "MX25R_1_1"
-      (pin power_in line (at 1.27 -6.35 90) (length 1.27)
-        (name "EP" (effects (font (size 0.635 0.635))))
-        (number "0" (effects (font (size 0.762 0.762))))
-      )
-      (pin input inverted (at 6.35 -3.81 180) (length 2.54)
-        (name "~{CS}" (effects (font (size 0.635 0.635))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-      (pin output line (at 6.35 1.27 180) (length 2.54)
-        (name "SO" (effects (font (size 0.635 0.635))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-      (pin input inverted (at -6.35 1.27 0) (length 2.54)
-        (name "~{WP}" (effects (font (size 0.635 0.635))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at -1.27 -6.35 90) (length 1.27)
-        (name "GND" (effects (font (size 0.635 0.635))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 3.81 180) (length 2.54)
-        (name "SI" (effects (font (size 0.635 0.635))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-      (pin input line (at 6.35 -1.27 180) (length 2.54)
-        (name "SCK" (effects (font (size 0.635 0.635))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-      (pin input inverted (at -6.35 -1.27 0) (length 2.54)
-        (name "~{HOLD}" (effects (font (size 0.635 0.635))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-      (pin power_in line (at 0 6.35 270) (length 1.27)
-        (name "VCC" (effects (font (size 0.635 0.635))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "AT25"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MEM"
+			(at -0.508 0 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "AT25"
+			(at -2.032 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.sqrt.pl/doc/at25sf041-dte.pdf"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "512kB;"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adesto"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "AT25SF041-SSHD-T"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AT25_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AT25_1_1"
+			(pin input line
+				(at 6.35 -3.81 180)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -3.81 0)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.27)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "M24C"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MEM"
+			(at 0.762 0 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "M24C"
+			(at -0.762 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "256B;"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ST Microelectronics"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "M24C02-RMN6TP"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "TME"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M24C_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "M24C_1_1"
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "E0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 1.27 0)
+				(length 2.54)
+				(name "E1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -1.27 0)
+				(length 2.54)
+				(name "E2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -3.81 0)
+				(length 2.54)
+				(name "~{WC}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.27)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MX25R"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at -4.318 3.81 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MX25R"
+			(at -4.318 5.334 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "-"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8MB;"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Macronix International"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "MX25R6435FZAIH0"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Avnet"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MX25R_0_1"
+			(rectangle
+				(start -3.81 5.08)
+				(end 3.81 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MX25R_1_1"
+			(pin power_in line
+				(at 1.27 -6.35 90)
+				(length 1.27)
+				(name "EP"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -3.81 180)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "SO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 1.27 0)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -6.35 90)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "SI"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "SCK"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -1.27 0)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.27)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
 )

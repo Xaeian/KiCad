@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "http://sqrt.pl/datasheet/BQ2438{0,1,2}.pdf"
-			(at 0 -3.81 0)
+			(at 1.016 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
