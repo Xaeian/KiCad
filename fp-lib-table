@@ -4,6 +4,7 @@
   (lib (name Battery)(type KiCad)(uri ${LFP}/Battery)(options "")(descr ""))
   (lib (name Capacitor-SMD)(type KiCad)(uri ${LFP}/Capacitor-SMD)(options "")(descr ""))
   (lib (name Capacitor-THT)(type KiCad)(uri ${LFP}/Capacitor-THT)(options "")(descr ""))
+  (lib (name Coil)(type KiCad)(uri ${LFP}/Coil)(options "")(descr ""))
   (lib (name Connector)(type KiCad)(uri ${LFP}/Connector)(options "")(descr ""))
   (lib (name Crystal)(type KiCad)(uri ${LFP}/Crystal)(options "")(descr ""))
   (lib (name Degson)(type KiCad)(uri ${LFP}/Degson)(options "")(descr ""))

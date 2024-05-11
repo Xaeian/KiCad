@@ -5888,18 +5888,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "USB"
-			(at 0 17.526 0)
+			(at 0 16.764 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Value" "USB-C"
-			(at 0 15.494 0)
+			(at 0 15.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

@@ -1,0 +1,223 @@
+(footprint "Varistor-5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b19cb5e4-c19b-4e59-9394-a516051ae77e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "D5"
+		(at 0 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11e0b91c-80b6-4d94-a788-55682517825b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 6.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d6c09d3-1f05-4250-80d6-d54ffe954069")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 6.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f9a3355-2ae2-4b63-a167-94617f8b2e17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 6.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e736a4e4-2018-4c70-8fd3-4200e700d718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.792322 -0.733736)
+		(end -2.8 -1.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "782c125c-40aa-4f4d-bf7a-1608c98ffb98")
+	)
+	(fp_line
+		(start -2.5 -1.7)
+		(end -0.3 -1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6be22125-b1a3-4586-868b-53ce28fbe993")
+	)
+	(fp_line
+		(start -1.600003 1.399998)
+		(end -0.399998 1.400002)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00a3b839-7678-4ba7-b27b-f9cb87e95b1f")
+	)
+	(fp_line
+		(start -0.4 1.4)
+		(end 0.3 1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36c84ef8-5bb5-41e8-bcc9-53274427ba4f")
+	)
+	(fp_line
+		(start -0.3 -1.7)
+		(end 0.4 -1.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9936eacd-b9ef-4b2e-9f08-00f06b1b81b6")
+	)
+	(fp_line
+		(start 0.3 1.7)
+		(end 2.5 1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e258a5e3-714b-4503-80c9-43688e44f34e")
+	)
+	(fp_line
+		(start 0.4 -1.4)
+		(end 1.600005 -1.399996)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08f3717b-a467-4985-8224-624c61e3e512")
+	)
+	(fp_line
+		(start 2.803839 1.433132)
+		(end 2.796161 0.766868)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2a7b690-b942-4c2d-b49b-c2fd1d8ac1f0")
+	)
+	(fp_arc
+		(start -2.8 -1.4)
+		(mid -2.712132 -1.612132)
+		(end -2.5 -1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b03c330-a7ba-433e-b841-429766fc62fc")
+	)
+	(fp_arc
+		(start -1.6 1.4)
+		(mid -2.822135 0.682924)
+		(end -2.792322 -0.733736)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a9cf9c6-4342-4055-8134-9237c60b48a2")
+	)
+	(fp_arc
+		(start 1.600005 -1.399996)
+		(mid 2.822133 -0.682919)
+		(end 2.792327 0.73374)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16c2c1d7-f760-49cb-8c0b-55189af198e0")
+	)
+	(fp_arc
+		(start 2.8 1.4)
+		(mid 2.712132 1.612132)
+		(end 2.5 1.7)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82b19538-316d-4ac3-8aa2-972d703772e4")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -0.4)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbeaeec1-8441-48bb-87cc-b6b2df4e0e59")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0.4)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9719a44b-0b97-4630-a4f7-4ade99c4ba68")
+	)
+	(model "${L3D}/Fuse/Varistor-5mm.step"
+		(offset
+			(xyz 0 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
