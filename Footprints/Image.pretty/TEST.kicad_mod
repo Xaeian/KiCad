@@ -1,0 +1,129 @@
+(footprint "TEST"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TEST"
+		(at 0.05 2.8 90)
+		(layer "F.SilkS")
+		(uuid "2faff86e-e750-45d0-a795-15368d7d1347")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TEST"
+		(at 0.05 2.8 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa87f13a-a69c-487b-b17f-4d6417c56b93")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5749942f-68f3-4116-ab78-634032793f49")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fc55c4d-cb36-4172-a08c-673a5c88c593")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13d04b43-0e59-44e8-af2c-55e947be4be2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.1 4.2)
+		(end -1.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bd111b2-80a8-4589-a61e-e498a80bf1f6")
+	)
+	(fp_line
+		(start -1.1 4.2)
+		(end -0.6 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "425670bc-075b-4711-bb80-4a14abf789d4")
+	)
+	(fp_line
+		(start -0.6 4.8)
+		(end 0.6 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbff8430-7dff-4284-89c6-048fcdab8610")
+	)
+	(fp_line
+		(start 0.6 4.8)
+		(end 1.1 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83b7e402-26be-4066-87e8-aae21790558a")
+	)
+	(fp_line
+		(start 1.1 0)
+		(end 1.1 4.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e28fb328-f9da-4e5e-819f-ef709dbcd7a1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f0491c5b-4f66-4d26-88f1-15cc7dda4889")
+	)
+)

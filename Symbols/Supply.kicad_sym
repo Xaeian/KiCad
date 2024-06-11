@@ -70,15 +70,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "-"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Transformer_1_1"
 			(circle
 				(center -1.27 3.175)
@@ -2581,7 +2572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "Code2" "-"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -3749,7 +3740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "-"
+		(property "Code2" "-"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -5161,15 +5152,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "VDC_0_1"
 			(polyline
 				(pts
@@ -5208,7 +5190,7 @@
 			)
 		)
 		(symbol "VDC_1_1"
-			(pin passive line
+			(pin power_out line
 				(at -3.81 0 0)
 				(length 2.0828)
 				(name "+"
@@ -5226,7 +5208,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 3.81 0 180)
 				(length 2.0828)
 				(name "-"
@@ -5316,15 +5298,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "-"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "VDC-Mount_0_1"
 			(arc
 				(start -2.032 -0.254)
@@ -5375,7 +5348,7 @@
 			)
 		)
 		(symbol "VDC-Mount_1_1"
-			(pin passive line
+			(pin power_out line
 				(at -3.81 0 0)
 				(length 2.0828)
 				(name "+"
@@ -5393,7 +5366,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 3.81 0 180)
 				(length 2.0828)
 				(name "-"

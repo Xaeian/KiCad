@@ -1,0 +1,450 @@
+(footprint "Coil-12x5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT")
+	(property "Reference" "REF**"
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b19cb5e4-c19b-4e59-9394-a516051ae77e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "12x5mm"
+		(at 0 -0.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11e0b91c-80b6-4d94-a788-55682517825b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 6.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d6c09d3-1f05-4250-80d6-d54ffe954069")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 6.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f9a3355-2ae2-4b63-a167-94617f8b2e17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 6.215 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e736a4e4-2018-4c70-8fd3-4200e700d718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -0.6)
+		(end -6 -1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f0147239-498d-4330-bd51-6864de90a3b5")
+	)
+	(fp_line
+		(start -6 0.2)
+		(end -6 -0.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bb96fa4-f99c-463c-856d-c85ee5f879b9")
+	)
+	(fp_line
+		(start -6 1.2)
+		(end -6 0.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7350f0e2-18e4-471e-9e1c-812f9d4e0858")
+	)
+	(fp_line
+		(start -4.4 -2.4)
+		(end -4.8 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b76b488-f22f-43f5-8bc1-a72538d6002b")
+	)
+	(fp_line
+		(start -4.4 2.4)
+		(end -4.8 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1633ae17-d228-4b83-b925-8221db871284")
+	)
+	(fp_line
+		(start -3.6 -2.4)
+		(end -4 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "506696f6-fae2-42cf-ae75-41525cb29b7f")
+	)
+	(fp_line
+		(start -3.6 2.4)
+		(end -4 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2505feb5-efa1-461b-b6f7-fdd7c731e907")
+	)
+	(fp_line
+		(start -2.8 -2.4)
+		(end -3.2 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b794cc7-7209-4610-8ce9-33c362c4998d")
+	)
+	(fp_line
+		(start -2.8 2.4)
+		(end -3.2 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b2b89035-60f6-4246-af37-839aa0d255c5")
+	)
+	(fp_line
+		(start -2 -2.4)
+		(end -2.4 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3522eb73-6393-4a85-bfce-419a849e3ad4")
+	)
+	(fp_line
+		(start -2 2.4)
+		(end -2.4 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "429c6499-f2d0-4083-947a-4f69956f4c22")
+	)
+	(fp_line
+		(start -1 -2.4)
+		(end -1.6 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1ddcf82-65f6-4e0e-9f9e-b2ecf09ec42b")
+	)
+	(fp_line
+		(start -1 2.4)
+		(end -1.6 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8008b0b3-7657-4c1b-b578-82ac01107e1c")
+	)
+	(fp_line
+		(start 1 -2.4)
+		(end 1.6 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9189bd32-4267-48a9-bb35-b350a828a212")
+	)
+	(fp_line
+		(start 1 2.4)
+		(end 1.6 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e32573de-535e-4009-8722-fe70bf6cd495")
+	)
+	(fp_line
+		(start 2 -2.4)
+		(end 2.4 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4d1814d-d85a-4cf8-9615-464902c28a63")
+	)
+	(fp_line
+		(start 2 2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db7af3f6-25e5-4f65-96eb-2a07fa7246ec")
+	)
+	(fp_line
+		(start 2.8 -2.4)
+		(end 3.2 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f31e7196-16fe-4b26-956d-7af85242b99f")
+	)
+	(fp_line
+		(start 2.8 2.4)
+		(end 3.2 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98393c3a-0241-4aa6-8568-5ef8ec3670ab")
+	)
+	(fp_line
+		(start 3.6 -2.4)
+		(end 4 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "394a2a42-5ca3-4fb6-81d7-8a81fde7735d")
+	)
+	(fp_line
+		(start 3.6 2.4)
+		(end 4 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c394f6a0-3ffe-4a78-a899-4ee0ad6ef9aa")
+	)
+	(fp_line
+		(start 4.4 -2.4)
+		(end 4.8 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "42a2bc1b-74be-4072-b1b8-cf919f126d1f")
+	)
+	(fp_line
+		(start 4.4 2.4)
+		(end 4.8 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "693e96e5-3486-4a2e-8de0-fee79123d9a9")
+	)
+	(fp_line
+		(start 6 -1.2)
+		(end 6 -0.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da8497b1-0189-4504-a55b-10856366912b")
+	)
+	(fp_line
+		(start 6 -0.2)
+		(end 6 0.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90e2cb86-e8e9-4f44-8eaf-7c8b14d2979e")
+	)
+	(fp_line
+		(start 6 0.6)
+		(end 6 1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d11db35-5554-40e5-95c7-9c772b608061")
+	)
+	(fp_arc
+		(start -6 -1.6)
+		(mid -5.965673 -1.831827)
+		(end -5.86564 -2.04376)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c5f19095-3bd3-4fda-ac42-7be8a1e0301a")
+	)
+	(fp_arc
+		(start -5.865641 2.04376)
+		(mid -5.965675 1.831827)
+		(end -6.000001 1.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efac977b-e2c7-4091-bf21-94eec0a6af6d")
+	)
+	(fp_arc
+		(start -5.64376 -2.26564)
+		(mid -5.431827 -2.365674)
+		(end -5.2 -2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d407129-25f5-4dcb-b33a-2cff5dca077c")
+	)
+	(fp_arc
+		(start -5.200001 2.4)
+		(mid -5.431828 2.365673)
+		(end -5.643761 2.26564)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f6583eb3-6691-45d6-9fc0-63d433556a19")
+	)
+	(fp_arc
+		(start 5.200001 -2.4)
+		(mid 5.431828 -2.365673)
+		(end 5.643761 -2.26564)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a516e0ad-5dcc-42f5-8256-0cff09502f76")
+	)
+	(fp_arc
+		(start 5.64376 2.26564)
+		(mid 5.431827 2.365674)
+		(end 5.2 2.4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4658e08d-d110-4aaa-ad8c-81a58cea9863")
+	)
+	(fp_arc
+		(start 5.865641 -2.04376)
+		(mid 5.965675 -1.831827)
+		(end 6.000001 -1.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "134e0930-678d-4391-8db2-a6bc50a3057c")
+	)
+	(fp_arc
+		(start 6 1.6)
+		(mid 5.965673 1.831827)
+		(end 5.86564 2.04376)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "849e3fd5-9978-4401-8adc-22bb8b73ae79")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.4)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbeaeec1-8441-48bb-87cc-b6b2df4e0e59")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.6)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd1c41d2-c0ee-468e-beb6-6d4031a09c9a")
+	)
+	(model "${L3D}/Inductor/Coil-12x5mm.step"
+		(offset
+			(xyz 0 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

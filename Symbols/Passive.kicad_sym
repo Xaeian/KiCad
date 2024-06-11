@@ -1,488 +1,1555 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Antenna" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "ANT" (at 0 -1.524 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "Antenna" (at 0 -2.794 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at -0.762 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "60311002111526" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "SMA;" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "Antenna_0_1"
-      (arc (start -1.524 6.096) (mid -2.4709 3.81) (end -1.524 1.524)
-        (stroke (width 0.1016) (type solid))
-        (fill (type none))
-      )
-      (arc (start -1.016 5.588) (mid -1.8338 3.81) (end -1.016 2.032)
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-      (arc (start -0.508 5.08) (mid -1.2271 3.81) (end -0.508 2.54)
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.302)
-          (xy 0 0.762)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 1.524)
-          (xy -2.54 0.508)
-          (xy -2.032 1.016)
-          (xy -2.54 1.524)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 2.159 1.524)
-          (xy 2.159 0.508)
-          (xy 2.667 1.016)
-          (xy 2.159 1.524)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -0.254)
-          (xy -1.016 0.508)
-          (xy -0.254 0.762)
-          (xy 0.254 0.762)
-          (xy 1.016 0.508)
-          (xy 1.016 -0.254)
-          (xy -1.016 -0.254)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-      (circle (center 0 3.81) (radius 0.5588)
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-      (arc (start 0.508 2.54) (mid 1.2271 3.81) (end 0.508 5.08)
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
-      )
-      (arc (start 1.016 2.032) (mid 1.8338 3.81) (end 1.016 5.588)
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-      (arc (start 1.524 1.524) (mid 2.4709 3.81) (end 1.524 6.096)
-        (stroke (width 0.1016) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "Antenna_1_1"
-      (pin passive line (at -2.54 0 0) (length 1.524)
-        (name "IN" (effects (font (size 0.889 0.889))))
-        (number "1" (effects (font (size 0.889 0.889))))
-      )
-      (pin passive line (at 2.54 0 180) (length 1.524)
-        (name "OUT" (effects (font (size 0.889 0.889))))
-        (number "2" (effects (font (size 0.889 0.889))))
-      )
-    )
-  )
-  (symbol "Crystal" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "XTAL" (at 0 2.667 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "Crystal" (at 0 -2.794 0)
-      (effects (font (size 0.762 0.762) italic))
-    )
-    (property "Footprint" "" (at -0.762 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 0 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "ABS06-32.768kHz-6-1-T" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "±10ppm;" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "Crystal_0_1"
-      (polyline
-        (pts
-          (xy -1.397 1.778)
-          (xy -1.397 -1.778)
-        )
-        (stroke (width 0.3048) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.397 1.778)
-          (xy 1.397 -1.778)
-        )
-        (stroke (width 0.3048) (type solid))
-        (fill (type none))
-      )
-      (rectangle (start 0.889 -1.397) (end -0.889 1.397)
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "Crystal_1_1"
-      (pin passive line (at -2.54 0 0) (length 1.143)
-        (name "1" (effects (font (size 0.889 0.889))))
-        (number "1" (effects (font (size 0.889 0.889))))
-      )
-      (pin passive line (at 2.54 0 180) (length 1.143)
-        (name "2" (effects (font (size 0.889 0.889))))
-        (number "2" (effects (font (size 0.889 0.889))))
-      )
-    )
-  )
-  (symbol "Crystal-GND" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "XTAL" (at 0 4.064 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "Crystal-GND" (at 0 2.794 0)
-      (effects (font (size 0.762 0.762) italic))
-    )
-    (property "Footprint" "" (at -0.762 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "-" (at 0 -11.43 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -12.7 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "±20ppm;" (at 0 -13.97 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "Crystal-GND_0_1"
-      (polyline
-        (pts
-          (xy -1.397 1.778)
-          (xy -1.397 -1.778)
-        )
-        (stroke (width 0.3048) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.762 -1.778)
-          (xy 0.762 -1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.032)
-          (xy 0 -1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.397 1.778)
-          (xy 1.397 -1.778)
-        )
-        (stroke (width 0.3048) (type solid))
-        (fill (type none))
-      )
-      (rectangle (start 0.889 -1.397) (end -0.889 1.397)
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "Crystal-GND_1_1"
-      (pin passive line (at -2.54 0 0) (length 1.143)
-        (name "1" (effects (font (size 0.889 0.889))))
-        (number "1" (effects (font (size 0.889 0.889))))
-      )
-      (pin passive line (at 2.54 0 180) (length 1.143)
-        (name "2" (effects (font (size 0.889 0.889))))
-        (number "2" (effects (font (size 0.889 0.889))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "GND" (effects (font (size 0.889 0.889))))
-        (number "3" (effects (font (size 0.889 0.889))))
-      )
-    )
-  )
-  (symbol "Fuse" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "B" (at 0 1.524 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "Fuse" (at 0 -1.651 0)
-      (effects (font (size 0.762 0.762) italic))
-    )
-    (property "Footprint" "" (at 0 -2.54 0)
-      (effects (font (size 0.381 0.381)) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Bel Fuse" (at 0 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "0ZCJ0035AF2E" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "TME" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "350mA; 40V;" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "Fuse_0_1"
-      (rectangle (start -1.778 0.762) (end 1.778 -0.762)
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 0)
-          (xy 1.778 0)
-        )
-        (stroke (width 0.0762) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "Fuse_1_1"
-      (pin passive line (at -2.54 0 0) (length 0.762)
-        (name "1" (effects (font (size 0.508 0.508))))
-        (number "1" (effects (font (size 0.508 0.508))))
-      )
-      (pin passive line (at 2.54 0 180) (length 0.762)
-        (name "2" (effects (font (size 0.508 0.508))))
-        (number "2" (effects (font (size 0.508 0.508))))
-      )
-    )
-  )
-  (symbol "GTD" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "GD" (at 0 1.524 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "GDT" (at 0 -1.651 0)
-      (effects (font (size 0.762 0.762) italic))
-    )
-    (property "Footprint" "" (at 0 -2.54 0)
-      (effects (font (size 0.381 0.381)) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Bourns" (at 0 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "2045-47-BLF" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "TME" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "470V; 15kA;" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "GTD_0_1"
-      (rectangle (start -1.778 0.762) (end 1.778 -0.762)
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 0)
-          (xy -1.016 0)
-        )
-        (stroke (width 0.0762) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.016 0)
-          (xy 1.778 0)
-        )
-        (stroke (width 0.0762) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "GTD_1_1"
-      (polyline
-        (pts
-          (xy -1.016 0.254)
-          (xy -1.016 -0.254)
-          (xy -0.254 0)
-          (xy -1.016 0.254)
-        )
-        (stroke (width 0.0762) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 1.016 -0.254)
-          (xy 1.016 0.254)
-          (xy 0.254 0)
-          (xy 1.016 -0.254)
-        )
-        (stroke (width 0.0762) (type default))
-        (fill (type outline))
-      )
-      (pin passive line (at -2.54 0 0) (length 0.762)
-        (name "1" (effects (font (size 0.508 0.508))))
-        (number "1" (effects (font (size 0.508 0.508))))
-      )
-      (pin passive line (at 2.54 0 180) (length 0.762)
-        (name "2" (effects (font (size 0.508 0.508))))
-        (number "2" (effects (font (size 0.508 0.508))))
-      )
-    )
-  )
-  (symbol "Thermistor" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "T" (at 0 2.032 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "Thermistor" (at 0 -2.159 0)
-      (effects (font (size 0.762 0.762) italic))
-    )
-    (property "Footprint" "Resistor-SMD:0805" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "SR Passives" (at 0 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "NTC0805-10K" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "TME" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "10kΩ;" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "Thermistor_0_1"
-      (rectangle (start -1.778 0.762) (end 1.778 -0.762)
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -1.27)
-          (xy -1.778 -1.27)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -1.27)
-          (xy 1.016 1.27)
-          (xy 1.778 1.27)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "Thermistor_1_1"
-      (pin passive line (at -2.54 0 0) (length 0.762)
-        (name "1" (effects (font (size 0.508 0.508))))
-        (number "1" (effects (font (size 0.508 0.508))))
-      )
-      (pin passive line (at 2.54 0 180) (length 0.762)
-        (name "2" (effects (font (size 0.508 0.508))))
-        (number "2" (effects (font (size 0.508 0.508))))
-      )
-    )
-  )
-  (symbol "Varistor" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "V" (at 0 2.032 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "Varistor" (at 0 -2.159 0)
-      (effects (font (size 0.762 0.762) italic))
-    )
-    (property "Footprint" "" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "TDK" (at 0 -3.81 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "B72220S0301K101" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "300VAC; 385VDC; 8kA; 580pF;" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "Varistor_0_1"
-      (rectangle (start -1.778 0.762) (end 1.778 -0.762)
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -1.27)
-          (xy -1.778 -1.27)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.016 -1.27)
-          (xy 1.524 1.27)
-          (xy 1.778 1.27)
-        )
-        (stroke (width 0.127) (type solid))
-        (fill (type none))
-      )
-    )
-    (symbol "Varistor_1_1"
-      (pin passive line (at -2.54 0 0) (length 0.762)
-        (name "1" (effects (font (size 0.508 0.508))))
-        (number "1" (effects (font (size 0.508 0.508))))
-      )
-      (pin passive line (at 2.54 0 180) (length 0.762)
-        (name "2" (effects (font (size 0.508 0.508))))
-        (number "2" (effects (font (size 0.508 0.508))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Antenna"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "ANT"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.762 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMA;"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "60311002111526"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Antenna_0_1"
+			(arc
+				(start -1.524 6.096)
+				(mid -2.4709 3.81)
+				(end -1.524 1.524)
+				(stroke
+					(width 0.1016)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.016 5.588)
+				(mid -1.8338 3.81)
+				(end -1.016 2.032)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 5.08)
+				(mid -1.2271 3.81)
+				(end -0.508 2.54)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.302) (xy 0 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 1.524) (xy -2.54 0.508) (xy -2.032 1.016) (xy -2.54 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.159 1.524) (xy 2.159 0.508) (xy 2.667 1.016) (xy 2.159 1.524)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -0.254) (xy -1.016 0.508) (xy -0.254 0.762) (xy 0.254 0.762) (xy 1.016 0.508) (xy 1.016 -0.254)
+					(xy -1.016 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 3.81)
+				(radius 0.5588)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 0.508 2.54)
+				(mid 1.2271 3.81)
+				(end 0.508 5.08)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 2.032)
+				(mid 1.8338 3.81)
+				(end 1.016 5.588)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 1.524)
+				(mid 2.4709 3.81)
+				(end 1.524 6.096)
+				(stroke
+					(width 0.1016)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Antenna_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.524)
+				(name "IN"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.524)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Crystal"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XTAL"
+			(at 0 2.667 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 0 -2.794 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.762 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±10ppm;"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "ABS06-32.768kHz-6-1-T"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal_0_1"
+			(polyline
+				(pts
+					(xy -1.397 1.778) (xy -1.397 -1.778)
+				)
+				(stroke
+					(width 0.3048)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 1.778) (xy 1.397 -1.778)
+				)
+				(stroke
+					(width 0.3048)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.889 -1.397)
+				(end -0.889 1.397)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Crystal_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.143)
+				(name "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.143)
+				(name "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Crystal-GND"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XTAL"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Crystal-GND"
+			(at 0 2.794 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -0.762 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±20ppm;"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "-"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal-GND_0_1"
+			(polyline
+				(pts
+					(xy -1.397 1.778) (xy -1.397 -1.778)
+				)
+				(stroke
+					(width 0.3048)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -1.778) (xy 0.762 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.032) (xy 0 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.397 1.778) (xy 1.397 -1.778)
+				)
+				(stroke
+					(width 0.3048)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.889 -1.397)
+				(end -0.889 1.397)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Crystal-GND_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.143)
+				(name "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.143)
+				(name "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "GND"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Fuse"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "B"
+			(at 0 1.524 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 0 -1.651 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "350mA; 40V;"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bel Fuse"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "0ZCJ0035AF2E"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Fuse_0_1"
+			(rectangle
+				(start -1.778 0.762)
+				(end 1.778 -0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0) (xy 1.778 0)
+				)
+				(stroke
+					(width 0.0762)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fuse_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GTD"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "GD"
+			(at 0 1.524 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "GDT"
+			(at 0 -1.651 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470V; 15kA;"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "2045-47-BLF"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GTD_0_1"
+			(rectangle
+				(start -1.778 0.762)
+				(end 1.778 -0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0) (xy -1.016 0)
+				)
+				(stroke
+					(width 0.0762)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 1.778 0)
+				)
+				(stroke
+					(width 0.0762)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "GTD_1_1"
+			(polyline
+				(pts
+					(xy -1.016 0.254) (xy -1.016 -0.254) (xy -0.254 0) (xy -1.016 0.254)
+				)
+				(stroke
+					(width 0.0762)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -0.254) (xy 1.016 0.254) (xy 0.254 0) (xy 1.016 -0.254)
+				)
+				(stroke
+					(width 0.0762)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Jumper"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 3.048 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Jumper-SW"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:0603"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "-"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "-"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper_0_1"
+			(arc
+				(start -0.762 1.524)
+				(mid -1.1357 0)
+				(end -0.762 -1.524)
+				(stroke
+					(width 0.1016)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -1.27)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -1.27)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 1.27)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 1.27)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Jumper_1_1"
+			(pin passive line
+				(at 0 1.27 0)
+				(length 0)
+				(name "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -1.27 0)
+				(length 0)
+				(name "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Jumper-SW"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Jumper-SW"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:0603"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "-"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "-"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper-SW_0_1"
+			(arc
+				(start -0.762 2.794)
+				(mid -1.1357 1.27)
+				(end -0.762 -0.254)
+				(stroke
+					(width 0.1016)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.127)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 0.762 -2.794)
+				(mid 1.1357 -1.27)
+				(end 0.762 0.254)
+				(stroke
+					(width 0.1016)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper-SW_1_1"
+			(pin passive line
+				(at 0 2.54 0)
+				(length 0)
+				(name "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 0)
+				(name "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 0)
+				(name "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Thermistor"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Thermistor"
+			(at 0 -2.159 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor-SMD:0805"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ;"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SR Passives"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "NTC0805-10K"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Thermistor_0_1"
+			(rectangle
+				(start -1.778 0.762)
+				(end 1.778 -0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.27) (xy -1.778 -1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.27) (xy 1.016 1.27) (xy 1.778 1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Thermistor_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Varistor"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "V"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Varistor"
+			(at 0 -2.159 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300VAC; 385VDC; 8kA; 580pF;"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "B72220S0301K101"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Varistor_0_1"
+			(rectangle
+				(start -1.778 0.762)
+				(end 1.778 -0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.27) (xy -1.778 -1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.27) (xy 1.524 1.27) (xy 1.778 1.27)
+				)
+				(stroke
+					(width 0.127)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Varistor_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.762)
+				(name "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.762)
+				(name "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+	)
 )

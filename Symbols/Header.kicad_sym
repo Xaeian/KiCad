@@ -71,24 +71,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Maritex"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "1x01_0_1"
 			(rectangle
 				(start -0.3048 0.3048)
@@ -198,24 +180,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -374,24 +338,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -592,24 +538,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -852,24 +780,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1154,24 +1064,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1498,24 +1390,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1926,24 +1800,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2438,24 +2294,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -21.59 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3041,24 +2879,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "1"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "2x02_0_1"
 			(rectangle
 				(start -1.5748 1.5748)
@@ -3294,24 +3114,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3638,15 +3440,6 @@
 		)
 		(property "Code" "686106183822"
 			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4178,15 +3971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "2x04_0_1"
 			(rectangle
 				(start -1.5748 4.1148)
@@ -4590,15 +4374,6 @@
 		)
 		(property "Code" "686108183822"
 			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5214,24 +4989,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Maritex"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "2x05_0_1"
 			(rectangle
 				(start -1.5748 5.3848)
@@ -5719,15 +5476,6 @@
 		)
 		(property "Code" "687310124422"
 			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6427,24 +6175,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "1"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "2x06_0_1"
 			(rectangle
 				(start -1.5748 6.6548)
@@ -7042,24 +6772,6 @@
 		)
 		(property "Code" "61301421121"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "1"
-			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -7748,15 +7460,6 @@
 		)
 		(property "Code" "61301621121"
 			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -8529,24 +8232,6 @@
 		)
 		(property "Code" "61301821121"
 			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "1"
-			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -9377,24 +9062,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -10309,15 +9976,6 @@
 		)
 		(property "Code" "687320124422"
 			(at 0 -22.86 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -11430,24 +11088,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -21.59 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12940,24 +12580,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -29.21 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -30.48 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "-"
-			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 0.762 0.762)

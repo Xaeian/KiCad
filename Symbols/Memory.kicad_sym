@@ -71,15 +71,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -21.59 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "AT25_0_1"
 			(rectangle
 				(start -3.81 5.08)
@@ -302,15 +293,6 @@
 		)
 		(property "Code" "M24C02-RMN6TP"
 			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -542,15 +524,6 @@
 		)
 		(property "Code" "MX25R6435FZAIH0"
 			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Avnet"
-			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 0.762 0.762)

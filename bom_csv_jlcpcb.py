@@ -1,9 +1,9 @@
 """
 @package
 Output: CSV (comma-separated)
-Grouped By: Manufacturer, LCSC
-Sorted By: LCSC
-Fields: Comment(Value), Designator(Reference), Footprint(), LCSC
+Grouped By: Manufacturer, Code2
+Sorted By: Code2
+Fields: Comment(Value), Designator(Reference), Footprint(), Code2
 
 Command line:
 python "pathToFile/bom_csv_jlcpcb.py" "%I" "%O.csv"
@@ -24,22 +24,22 @@ for comp in components:
     comp.getValue(),
     comp.getRef(),
     comp.getFootprint(),
-    comp.getField("LCSC")
+    comp.getField("Code2")
   ])
 
-df = pd.DataFrame(array, columns=["Manufacturer", "Code", "Comment", "Designator", "Footprint", "LCSC"])
-df = df[(df["Code"].astype(str) != "") | (df["LCSC"].astype(str) != "")]
+df = pd.DataFrame(array, columns=["Manufacturer", "Code", "Comment", "Designator", "Footprint", "Code2"])
+df = df[(df["Code"].astype(str) != "") | (df["Code2"].astype(str) != "")]
 
 sys.argv[2]
 df = df.groupby(["Manufacturer", "Code"]).agg({
     "Comment": "first",
     "Designator": lambda x: ",".join(x),
     "Footprint": "first",
-    "LCSC": "first"
+    "Code2": "first"
 }).reset_index()
 
 df = df.drop(columns=["Manufacturer", "Code"])
-df = df.rename(columns={"LCSC": "JLCPCB Part #"})
+df = df.rename(columns={"Code2": "JLCPCB Part #"})
 
 df.to_csv(sys.argv[2], index=False)
 os.remove(sys.argv[1])

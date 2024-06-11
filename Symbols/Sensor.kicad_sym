@@ -74,15 +74,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "ACS70331_0_0"
 			(text "IP"
 				(at -4.064 0 0)
@@ -799,7 +790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83291"
+		(property "Code2" "C83291"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -1041,15 +1032,6 @@
 		)
 		(property "Code" "ISM330DHCX"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1394,15 +1376,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "KX003_0_1"
 			(rectangle
 				(start -3.81 6.35)
@@ -1643,15 +1616,6 @@
 		)
 		(property "Code" "KXTJ3-1057"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1953,15 +1917,6 @@
 		)
 		(property "Code" "LIS3DHTR"
 			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2342,15 +2297,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "MC3479_0_1"
 			(rectangle
 				(start -3.81 7.62)
@@ -2598,7 +2544,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C194656"
+		(property "Code2" "C194656"
 			(at 0 -8.89 0)
 			(effects
 				(font

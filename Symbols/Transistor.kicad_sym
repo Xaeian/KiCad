@@ -73,15 +73,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Bipolar-2NPN-2R_0_1"
 			(rectangle
 				(start -3.048 0.508)
@@ -432,15 +423,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Bipolar-Couple_0_1"
 			(polyline
 				(pts
@@ -709,15 +691,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Bipolar-NPN_0_1"
 			(polyline
 				(pts
@@ -889,15 +862,6 @@
 		)
 		(property "Code" "BCR108WH6327"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1192,15 +1156,6 @@
 		)
 		(property "Code" "DCX143ZU"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1512,15 +1467,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser;"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Bipolar-PNP_0_1"
 			(polyline
 				(pts
@@ -1723,7 +1669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2828436"
+		(property "Code2" "C2828436"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2005,15 +1951,6 @@
 		)
 		(property "Code" "BUK7K8R7-40EX"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2303,15 +2240,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Maritex"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Mosfet-N_0_1"
 			(polyline
 				(pts
@@ -2531,15 +2459,6 @@
 		)
 		(property "Code" "BSS138LT1G"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2784,15 +2703,6 @@
 		)
 		(property "Code" "2N7002DW"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3248,15 +3158,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser;"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Mosfet-P_0_1"
 			(polyline
 				(pts
@@ -3500,15 +3401,6 @@
 		)
 		(property "Code" "AOD609"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3926,15 +3818,6 @@
 		)
 		(property "Code" "AO6602"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -4390,15 +4273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Mosfet-PN-8_0_1"
 			(polyline
 				(pts
@@ -4816,15 +4690,6 @@
 		)
 		(property "Code" "STY145N65M5"
 			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.762 0.762)

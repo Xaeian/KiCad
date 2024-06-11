@@ -71,15 +71,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Capacitor_0_1"
 			(rectangle
 				(start -0.635 1.397)
@@ -1054,15 +1045,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Divider_0_1"
 			(rectangle
 				(start -3.048 0.762)
@@ -1229,15 +1211,6 @@
 		)
 		(property "Code" "-"
 			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1753,7 +1726,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -1.27 180)
+				(at 3.81 1.27 180)
 				(length 1.905)
 				(name "3"
 					(effects
@@ -1771,7 +1744,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 1.27 180)
+				(at 3.81 -1.27 180)
 				(length 1.905)
 				(name "4"
 					(effects
@@ -1852,15 +1825,6 @@
 		)
 		(property "Code" "870025575007"
 			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2024,7 +1988,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14709"
+		(property "Code2" "C14709"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -2119,7 +2083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -2148,15 +2112,6 @@
 		)
 		(property "Code" "74479114"
 			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Würth Elektronik"
-			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2383,15 +2338,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "-"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Jumper-Gape_0_1"
 			(polyline
 				(pts
@@ -2527,15 +2473,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "-"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Jumper-Short_0_1"
 			(rectangle
 				(start -1.524 0.254)
@@ -2650,15 +2587,6 @@
 		)
 		(property "Code" "RK09K1130AAU"
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Maritex"
-			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2906,15 +2834,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Maritex"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Potentiometer_0_1"
 			(rectangle
 				(start -1.778 0.762)
@@ -3077,15 +2996,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Resistor_0_1"
 			(rectangle
 				(start -1.524 0.762)
@@ -3200,15 +3110,6 @@
 		)
 		(property "Code" "4D03WGJ0102T5E"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3994,15 +3895,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Resistor-HeatSink_0_1"
 			(rectangle
 				(start -1.524 -1.016)
@@ -4146,15 +4038,6 @@
 		)
 		(property "Code" "4D03WGJ0102T5E"
 			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 0.762 0.762)

@@ -71,15 +71,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "AOZ1282_0_1"
 			(rectangle
 				(start -3.81 5.08)
@@ -454,7 +445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83224"
+		(property "Code2" "C83224"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -643,15 +634,6 @@
 		)
 		(property "Code" "MIC24052"
 			(at 0 -24.13 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -972,7 +954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C6993407"
+		(property "Code2" "C6993407"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -1222,7 +1204,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C12382"
+		(property "Code2" " C12382"
 			(at 0 -16.51 0)
 			(effects
 				(font

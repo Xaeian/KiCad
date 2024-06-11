@@ -1,857 +1,2700 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "1" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "1" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "7464000" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "RedCube;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "1_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "1_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "10" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "10" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140010" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "10_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "10_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_4_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_5_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_6_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_7_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_8_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_9_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "9" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "10_10_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "10" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "2" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "2" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140002" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "2_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "2_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "2_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "3" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "3" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140003" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "3_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "3_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "3_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "3_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "4" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "4" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140004" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "4_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "4_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "4_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "4_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "4_4_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "5" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "5" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140005" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "5_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "5_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "5_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "5_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "5_4_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "5_5_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "6" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "6" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140006" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "6_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "6_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "6_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "6_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "6_4_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "6_5_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "6_6_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "8" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "8" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691305140008" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "8_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "8_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_4_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_5_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_6_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_7_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "8_8_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
-  (symbol "9" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "CN" (at 0 4.826 0)
-      (effects (font (size 0.762 0.762)))
-    )
-    (property "Value" "9" (at 0 6.096 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Footprint" "" (at 0 -5.08 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "-" (at 0 -5.08 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Manufacturer" "Würth Elektronik" (at 0 -6.35 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Code" "691243110009" (at 0 -7.62 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Supplier" "Würth Elektronik" (at 0 -8.89 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (property "Description" "3.5mm;" (at 0 -10.16 0)
-      (effects (font (size 0.762 0.762)) hide)
-    )
-    (symbol "9_0_1"
-      (polyline
-        (pts
-          (xy 0 1.27)
-          (xy -1.016 1.27)
-          (xy -1.27 1.524)
-          (xy -1.27 3.556)
-          (xy -1.016 3.81)
-          (xy 1.016 3.81)
-          (xy 1.27 3.556)
-          (xy 1.27 1.524)
-          (xy 1.016 1.27)
-          (xy 0 1.27)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.508 1.778)
-          (xy -0.762 2.032)
-          (xy -0.254 2.54)
-          (xy -0.762 3.048)
-          (xy -0.508 3.302)
-          (xy 0 2.794)
-          (xy 0.508 3.302)
-          (xy 0.762 3.048)
-          (xy 0.254 2.54)
-          (xy 0.762 2.032)
-          (xy 0.508 1.778)
-          (xy 0 2.286)
-          (xy -0.508 1.778)
-        )
-        (stroke (width 0) (type solid))
-        (fill (type outline))
-      )
-    )
-    (symbol "9_1_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "1" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_2_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "2" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_3_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "3" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_4_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "4" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_5_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "5" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_6_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "6" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_7_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "7" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_8_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "8" (effects (font (size 0.762 0.762))))
-      )
-    )
-    (symbol "9_9_1"
-      (pin passive line (at 0 0 90) (length 1.27)
-        (name "CN" (effects (font (size 0.762 0.762))))
-        (number "9" (effects (font (size 0.762 0.762))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "1x02"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x02"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140002"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x02_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -2.286 1.27) (xy -2.54 1.524) (xy -2.54 3.556) (xy -2.286 3.81) (xy -0.254 3.81)
+					(xy 0 3.556) (xy 0 1.524) (xy -0.254 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.254 1.27) (xy 0 1.524) (xy 0 3.556) (xy 0.254 3.81) (xy 2.286 3.81) (xy 2.54 3.556)
+					(xy 2.54 1.524) (xy 2.286 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 1.778) (xy -2.032 2.032) (xy -1.524 2.54) (xy -2.032 3.048) (xy -1.778 3.302) (xy -1.27 2.794)
+					(xy -0.762 3.302) (xy -0.508 3.048) (xy -1.016 2.54) (xy -0.508 2.032) (xy -0.762 1.778) (xy -1.27 2.286)
+					(xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 0.508 2.032) (xy 1.016 2.54) (xy 0.508 3.048) (xy 0.762 3.302) (xy 1.27 2.794)
+					(xy 1.778 3.302) (xy 2.032 3.048) (xy 1.524 2.54) (xy 2.032 2.032) (xy 1.778 1.778) (xy 1.27 2.286)
+					(xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x02_1_1"
+			(pin passive line
+				(at -1.27 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x03"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x03"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140003"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x03_0_1"
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -3.556 1.27) (xy -3.81 1.524) (xy -3.81 3.556) (xy -3.556 3.81) (xy -1.524 3.81)
+					(xy -1.27 3.556) (xy -1.27 1.524) (xy -1.524 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.016 1.27) (xy -1.27 1.524) (xy -1.27 3.556) (xy -1.016 3.81) (xy 1.016 3.81)
+					(xy 1.27 3.556) (xy 1.27 1.524) (xy 1.016 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 1.524 1.27) (xy 1.27 1.524) (xy 1.27 3.556) (xy 1.524 3.81) (xy 3.556 3.81)
+					(xy 3.81 3.556) (xy 3.81 1.524) (xy 3.556 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 1.778) (xy -3.302 2.032) (xy -2.794 2.54) (xy -3.302 3.048) (xy -3.048 3.302) (xy -2.54 2.794)
+					(xy -2.032 3.302) (xy -1.778 3.048) (xy -2.286 2.54) (xy -1.778 2.032) (xy -2.032 1.778) (xy -2.54 2.286)
+					(xy -3.048 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 1.778) (xy -0.762 2.032) (xy -0.254 2.54) (xy -0.762 3.048) (xy -0.508 3.302) (xy 0 2.794)
+					(xy 0.508 3.302) (xy 0.762 3.048) (xy 0.254 2.54) (xy 0.762 2.032) (xy 0.508 1.778) (xy 0 2.286)
+					(xy -0.508 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 1.778) (xy 1.778 2.032) (xy 2.286 2.54) (xy 1.778 3.048) (xy 2.032 3.302) (xy 2.54 2.794)
+					(xy 3.048 3.302) (xy 3.302 3.048) (xy 2.794 2.54) (xy 3.302 2.032) (xy 3.048 1.778) (xy 2.54 2.286)
+					(xy 2.032 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x03_1_1"
+			(pin passive line
+				(at -2.54 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x04"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x04"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140004"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x04_0_1"
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -4.826 1.27) (xy -5.08 1.524) (xy -5.08 3.556) (xy -4.826 3.81) (xy -2.794 3.81)
+					(xy -2.54 3.556) (xy -2.54 1.524) (xy -2.794 1.27) (xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -2.286 1.27) (xy -2.54 1.524) (xy -2.54 3.556) (xy -2.286 3.81) (xy -0.254 3.81)
+					(xy 0 3.556) (xy 0 1.524) (xy -0.254 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.254 1.27) (xy 0 1.524) (xy 0 3.556) (xy 0.254 3.81) (xy 2.286 3.81) (xy 2.54 3.556)
+					(xy 2.54 1.524) (xy 2.286 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.794 1.27) (xy 2.54 1.524) (xy 2.54 3.556) (xy 2.794 3.81) (xy 4.826 3.81)
+					(xy 5.08 3.556) (xy 5.08 1.524) (xy 4.826 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.318 1.778) (xy -4.572 2.032) (xy -4.064 2.54) (xy -4.572 3.048) (xy -4.318 3.302) (xy -3.81 2.794)
+					(xy -3.302 3.302) (xy -3.048 3.048) (xy -3.556 2.54) (xy -3.048 2.032) (xy -3.302 1.778) (xy -3.81 2.286)
+					(xy -4.318 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 1.778) (xy -2.032 2.032) (xy -1.524 2.54) (xy -2.032 3.048) (xy -1.778 3.302) (xy -1.27 2.794)
+					(xy -0.762 3.302) (xy -0.508 3.048) (xy -1.016 2.54) (xy -0.508 2.032) (xy -0.762 1.778) (xy -1.27 2.286)
+					(xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 0.508 2.032) (xy 1.016 2.54) (xy 0.508 3.048) (xy 0.762 3.302) (xy 1.27 2.794)
+					(xy 1.778 3.302) (xy 2.032 3.048) (xy 1.524 2.54) (xy 2.032 2.032) (xy 1.778 1.778) (xy 1.27 2.286)
+					(xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 1.778) (xy 3.048 2.032) (xy 3.556 2.54) (xy 3.048 3.048) (xy 3.302 3.302) (xy 3.81 2.794)
+					(xy 4.318 3.302) (xy 4.572 3.048) (xy 4.064 2.54) (xy 4.572 2.032) (xy 4.318 1.778) (xy 3.81 2.286)
+					(xy 3.302 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x04_1_1"
+			(pin passive line
+				(at -3.81 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x05"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x05"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140005"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x05_0_1"
+			(polyline
+				(pts
+					(xy -5.08 1.27) (xy -6.096 1.27) (xy -6.35 1.524) (xy -6.35 3.556) (xy -6.096 3.81) (xy -4.064 3.81)
+					(xy -3.81 3.556) (xy -3.81 1.524) (xy -4.064 1.27) (xy -5.08 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -3.556 1.27) (xy -3.81 1.524) (xy -3.81 3.556) (xy -3.556 3.81) (xy -1.524 3.81)
+					(xy -1.27 3.556) (xy -1.27 1.524) (xy -1.524 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.016 1.27) (xy -1.27 1.524) (xy -1.27 3.556) (xy -1.016 3.81) (xy 1.016 3.81)
+					(xy 1.27 3.556) (xy 1.27 1.524) (xy 1.016 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 1.524 1.27) (xy 1.27 1.524) (xy 1.27 3.556) (xy 1.524 3.81) (xy 3.556 3.81)
+					(xy 3.81 3.556) (xy 3.81 1.524) (xy 3.556 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 1.27) (xy 4.064 1.27) (xy 3.81 1.524) (xy 3.81 3.556) (xy 4.064 3.81) (xy 6.096 3.81)
+					(xy 6.35 3.556) (xy 6.35 1.524) (xy 6.096 1.27) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.588 1.778) (xy -5.842 2.032) (xy -5.334 2.54) (xy -5.842 3.048) (xy -5.588 3.302) (xy -5.08 2.794)
+					(xy -4.572 3.302) (xy -4.318 3.048) (xy -4.826 2.54) (xy -4.318 2.032) (xy -4.572 1.778) (xy -5.08 2.286)
+					(xy -5.588 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 1.778) (xy -3.302 2.032) (xy -2.794 2.54) (xy -3.302 3.048) (xy -3.048 3.302) (xy -2.54 2.794)
+					(xy -2.032 3.302) (xy -1.778 3.048) (xy -2.286 2.54) (xy -1.778 2.032) (xy -2.032 1.778) (xy -2.54 2.286)
+					(xy -3.048 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 1.778) (xy -0.762 2.032) (xy -0.254 2.54) (xy -0.762 3.048) (xy -0.508 3.302) (xy 0 2.794)
+					(xy 0.508 3.302) (xy 0.762 3.048) (xy 0.254 2.54) (xy 0.762 2.032) (xy 0.508 1.778) (xy 0 2.286)
+					(xy -0.508 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 1.778) (xy 1.778 2.032) (xy 2.286 2.54) (xy 1.778 3.048) (xy 2.032 3.302) (xy 2.54 2.794)
+					(xy 3.048 3.302) (xy 3.302 3.048) (xy 2.794 2.54) (xy 3.302 2.032) (xy 3.048 1.778) (xy 2.54 2.286)
+					(xy 2.032 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 1.778) (xy 4.318 2.032) (xy 4.826 2.54) (xy 4.318 3.048) (xy 4.572 3.302) (xy 5.08 2.794)
+					(xy 5.588 3.302) (xy 5.842 3.048) (xy 5.334 2.54) (xy 5.842 2.032) (xy 5.588 1.778) (xy 5.08 2.286)
+					(xy 4.572 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x05_1_1"
+			(pin passive line
+				(at -5.08 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 90)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x06"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x06"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140006"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x06_0_1"
+			(polyline
+				(pts
+					(xy -6.35 1.27) (xy -7.366 1.27) (xy -7.62 1.524) (xy -7.62 3.556) (xy -7.366 3.81) (xy -5.334 3.81)
+					(xy -5.08 3.556) (xy -5.08 1.524) (xy -5.334 1.27) (xy -6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -4.826 1.27) (xy -5.08 1.524) (xy -5.08 3.556) (xy -4.826 3.81) (xy -2.794 3.81)
+					(xy -2.54 3.556) (xy -2.54 1.524) (xy -2.794 1.27) (xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -2.286 1.27) (xy -2.54 1.524) (xy -2.54 3.556) (xy -2.286 3.81) (xy -0.254 3.81)
+					(xy 0 3.556) (xy 0 1.524) (xy -0.254 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.254 1.27) (xy 0 1.524) (xy 0 3.556) (xy 0.254 3.81) (xy 2.286 3.81) (xy 2.54 3.556)
+					(xy 2.54 1.524) (xy 2.286 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.794 1.27) (xy 2.54 1.524) (xy 2.54 3.556) (xy 2.794 3.81) (xy 4.826 3.81)
+					(xy 5.08 3.556) (xy 5.08 1.524) (xy 4.826 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 5.334 1.27) (xy 5.08 1.524) (xy 5.08 3.556) (xy 5.334 3.81) (xy 7.366 3.81)
+					(xy 7.62 3.556) (xy 7.62 1.524) (xy 7.366 1.27) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.858 1.778) (xy -7.112 2.032) (xy -6.604 2.54) (xy -7.112 3.048) (xy -6.858 3.302) (xy -6.35 2.794)
+					(xy -5.842 3.302) (xy -5.588 3.048) (xy -6.096 2.54) (xy -5.588 2.032) (xy -5.842 1.778) (xy -6.35 2.286)
+					(xy -6.858 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.318 1.778) (xy -4.572 2.032) (xy -4.064 2.54) (xy -4.572 3.048) (xy -4.318 3.302) (xy -3.81 2.794)
+					(xy -3.302 3.302) (xy -3.048 3.048) (xy -3.556 2.54) (xy -3.048 2.032) (xy -3.302 1.778) (xy -3.81 2.286)
+					(xy -4.318 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 1.778) (xy -2.032 2.032) (xy -1.524 2.54) (xy -2.032 3.048) (xy -1.778 3.302) (xy -1.27 2.794)
+					(xy -0.762 3.302) (xy -0.508 3.048) (xy -1.016 2.54) (xy -0.508 2.032) (xy -0.762 1.778) (xy -1.27 2.286)
+					(xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 0.508 2.032) (xy 1.016 2.54) (xy 0.508 3.048) (xy 0.762 3.302) (xy 1.27 2.794)
+					(xy 1.778 3.302) (xy 2.032 3.048) (xy 1.524 2.54) (xy 2.032 2.032) (xy 1.778 1.778) (xy 1.27 2.286)
+					(xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 1.778) (xy 3.048 2.032) (xy 3.556 2.54) (xy 3.048 3.048) (xy 3.302 3.302) (xy 3.81 2.794)
+					(xy 4.318 3.302) (xy 4.572 3.048) (xy 4.064 2.54) (xy 4.572 2.032) (xy 4.318 1.778) (xy 3.81 2.286)
+					(xy 3.302 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 1.778) (xy 5.588 2.032) (xy 6.096 2.54) (xy 5.588 3.048) (xy 5.842 3.302) (xy 6.35 2.794)
+					(xy 6.858 3.302) (xy 7.112 3.048) (xy 6.604 2.54) (xy 7.112 2.032) (xy 6.858 1.778) (xy 6.35 2.286)
+					(xy 5.842 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x06_1_1"
+			(pin passive line
+				(at -6.35 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 0 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 90)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 90)
+				(length 1.27)
+				(name "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x07"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN4"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x07"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "WR-TBL-5.00mm:3137-07"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.00mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Ningbo Xinlaiya"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "XY2500R-B-5.00-7P"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code2" "C505820"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x07_0_1"
+			(polyline
+				(pts
+					(xy -7.62 1.27) (xy -8.636 1.27) (xy -8.89 1.524) (xy -8.89 3.556) (xy -8.636 3.81) (xy -6.604 3.81)
+					(xy -6.35 3.556) (xy -6.35 1.524) (xy -6.604 1.27) (xy -7.62 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 1.27) (xy -6.096 1.27) (xy -6.35 1.524) (xy -6.35 3.556) (xy -6.096 3.81) (xy -4.064 3.81)
+					(xy -3.81 3.556) (xy -3.81 1.524) (xy -4.064 1.27) (xy -5.08 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 1.27) (xy -3.556 1.27) (xy -3.81 1.524) (xy -3.81 3.556) (xy -3.556 3.81) (xy -1.524 3.81)
+					(xy -1.27 3.556) (xy -1.27 1.524) (xy -1.524 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -1.016 1.27) (xy -1.27 1.524) (xy -1.27 3.556) (xy -1.016 3.81) (xy 1.016 3.81)
+					(xy 1.27 3.556) (xy 1.27 1.524) (xy 1.016 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 1.524 1.27) (xy 1.27 1.524) (xy 1.27 3.556) (xy 1.524 3.81) (xy 3.556 3.81)
+					(xy 3.81 3.556) (xy 3.81 1.524) (xy 3.556 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 1.27) (xy 4.064 1.27) (xy 3.81 1.524) (xy 3.81 3.556) (xy 4.064 3.81) (xy 6.096 3.81)
+					(xy 6.35 3.556) (xy 6.35 1.524) (xy 6.096 1.27) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 1.27) (xy 6.604 1.27) (xy 6.35 1.524) (xy 6.35 3.556) (xy 6.604 3.81) (xy 8.636 3.81)
+					(xy 8.89 3.556) (xy 8.89 1.524) (xy 8.636 1.27) (xy 7.62 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.128 1.778) (xy -8.382 2.032) (xy -7.874 2.54) (xy -8.382 3.048) (xy -8.128 3.302) (xy -7.62 2.794)
+					(xy -7.112 3.302) (xy -6.858 3.048) (xy -7.366 2.54) (xy -6.858 2.032) (xy -7.112 1.778) (xy -7.62 2.286)
+					(xy -8.128 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.588 1.778) (xy -5.842 2.032) (xy -5.334 2.54) (xy -5.842 3.048) (xy -5.588 3.302) (xy -5.08 2.794)
+					(xy -4.572 3.302) (xy -4.318 3.048) (xy -4.826 2.54) (xy -4.318 2.032) (xy -4.572 1.778) (xy -5.08 2.286)
+					(xy -5.588 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 1.778) (xy -3.302 2.032) (xy -2.794 2.54) (xy -3.302 3.048) (xy -3.048 3.302) (xy -2.54 2.794)
+					(xy -2.032 3.302) (xy -1.778 3.048) (xy -2.286 2.54) (xy -1.778 2.032) (xy -2.032 1.778) (xy -2.54 2.286)
+					(xy -3.048 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 1.778) (xy -0.762 2.032) (xy -0.254 2.54) (xy -0.762 3.048) (xy -0.508 3.302) (xy 0 2.794)
+					(xy 0.508 3.302) (xy 0.762 3.048) (xy 0.254 2.54) (xy 0.762 2.032) (xy 0.508 1.778) (xy 0 2.286)
+					(xy -0.508 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 1.778) (xy 1.778 2.032) (xy 2.286 2.54) (xy 1.778 3.048) (xy 2.032 3.302) (xy 2.54 2.794)
+					(xy 3.048 3.302) (xy 3.302 3.048) (xy 2.794 2.54) (xy 3.302 2.032) (xy 3.048 1.778) (xy 2.54 2.286)
+					(xy 2.032 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 1.778) (xy 4.318 2.032) (xy 4.826 2.54) (xy 4.318 3.048) (xy 4.572 3.302) (xy 5.08 2.794)
+					(xy 5.588 3.302) (xy 5.842 3.048) (xy 5.334 2.54) (xy 5.842 2.032) (xy 5.588 1.778) (xy 5.08 2.286)
+					(xy 4.572 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 1.778) (xy 6.858 2.032) (xy 7.366 2.54) (xy 6.858 3.048) (xy 7.112 3.302) (xy 7.62 2.794)
+					(xy 8.128 3.302) (xy 8.382 3.048) (xy 7.874 2.54) (xy 8.382 2.032) (xy 8.128 1.778) (xy 7.62 2.286)
+					(xy 7.112 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x07_1_1"
+			(pin passive line
+				(at -7.62 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 90)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 90)
+				(length 1.27)
+				(name "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 90)
+				(length 1.27)
+				(name "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x08"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x08"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -2.54 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140008"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x08_0_1"
+			(polyline
+				(pts
+					(xy -8.89 1.27) (xy -9.906 1.27) (xy -10.16 1.524) (xy -10.16 3.556) (xy -9.906 3.81) (xy -7.874 3.81)
+					(xy -7.62 3.556) (xy -7.62 1.524) (xy -7.874 1.27) (xy -8.89 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 1.27) (xy -7.366 1.27) (xy -7.62 1.524) (xy -7.62 3.556) (xy -7.366 3.81) (xy -5.334 3.81)
+					(xy -5.08 3.556) (xy -5.08 1.524) (xy -5.334 1.27) (xy -6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -4.826 1.27) (xy -5.08 1.524) (xy -5.08 3.556) (xy -4.826 3.81) (xy -2.794 3.81)
+					(xy -2.54 3.556) (xy -2.54 1.524) (xy -2.794 1.27) (xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -2.286 1.27) (xy -2.54 1.524) (xy -2.54 3.556) (xy -2.286 3.81) (xy -0.254 3.81)
+					(xy 0 3.556) (xy 0 1.524) (xy -0.254 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.254 1.27) (xy 0 1.524) (xy 0 3.556) (xy 0.254 3.81) (xy 2.286 3.81) (xy 2.54 3.556)
+					(xy 2.54 1.524) (xy 2.286 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.794 1.27) (xy 2.54 1.524) (xy 2.54 3.556) (xy 2.794 3.81) (xy 4.826 3.81)
+					(xy 5.08 3.556) (xy 5.08 1.524) (xy 4.826 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 5.334 1.27) (xy 5.08 1.524) (xy 5.08 3.556) (xy 5.334 3.81) (xy 7.366 3.81)
+					(xy 7.62 3.556) (xy 7.62 1.524) (xy 7.366 1.27) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 1.27) (xy 7.874 1.27) (xy 7.62 1.524) (xy 7.62 3.556) (xy 7.874 3.81) (xy 9.906 3.81)
+					(xy 10.16 3.556) (xy 10.16 1.524) (xy 9.906 1.27) (xy 8.89 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.398 1.778) (xy -9.652 2.032) (xy -9.144 2.54) (xy -9.652 3.048) (xy -9.398 3.302) (xy -8.89 2.794)
+					(xy -8.382 3.302) (xy -8.128 3.048) (xy -8.636 2.54) (xy -8.128 2.032) (xy -8.382 1.778) (xy -8.89 2.286)
+					(xy -9.398 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.858 1.778) (xy -7.112 2.032) (xy -6.604 2.54) (xy -7.112 3.048) (xy -6.858 3.302) (xy -6.35 2.794)
+					(xy -5.842 3.302) (xy -5.588 3.048) (xy -6.096 2.54) (xy -5.588 2.032) (xy -5.842 1.778) (xy -6.35 2.286)
+					(xy -6.858 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.318 1.778) (xy -4.572 2.032) (xy -4.064 2.54) (xy -4.572 3.048) (xy -4.318 3.302) (xy -3.81 2.794)
+					(xy -3.302 3.302) (xy -3.048 3.048) (xy -3.556 2.54) (xy -3.048 2.032) (xy -3.302 1.778) (xy -3.81 2.286)
+					(xy -4.318 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 1.778) (xy -2.032 2.032) (xy -1.524 2.54) (xy -2.032 3.048) (xy -1.778 3.302) (xy -1.27 2.794)
+					(xy -0.762 3.302) (xy -0.508 3.048) (xy -1.016 2.54) (xy -0.508 2.032) (xy -0.762 1.778) (xy -1.27 2.286)
+					(xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 0.508 2.032) (xy 1.016 2.54) (xy 0.508 3.048) (xy 0.762 3.302) (xy 1.27 2.794)
+					(xy 1.778 3.302) (xy 2.032 3.048) (xy 1.524 2.54) (xy 2.032 2.032) (xy 1.778 1.778) (xy 1.27 2.286)
+					(xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 1.778) (xy 3.048 2.032) (xy 3.556 2.54) (xy 3.048 3.048) (xy 3.302 3.302) (xy 3.81 2.794)
+					(xy 4.318 3.302) (xy 4.572 3.048) (xy 4.064 2.54) (xy 4.572 2.032) (xy 4.318 1.778) (xy 3.81 2.286)
+					(xy 3.302 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 1.778) (xy 5.588 2.032) (xy 6.096 2.54) (xy 5.588 3.048) (xy 5.842 3.302) (xy 6.35 2.794)
+					(xy 6.858 3.302) (xy 7.112 3.048) (xy 6.604 2.54) (xy 7.112 2.032) (xy 6.858 1.778) (xy 6.35 2.286)
+					(xy 5.842 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.382 1.778) (xy 8.128 2.032) (xy 8.636 2.54) (xy 8.128 3.048) (xy 8.382 3.302) (xy 8.89 2.794)
+					(xy 9.398 3.302) (xy 9.652 3.048) (xy 9.144 2.54) (xy 9.652 2.032) (xy 9.398 1.778) (xy 8.89 2.286)
+					(xy 8.382 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x08_1_1"
+			(pin passive line
+				(at -8.89 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 0 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 0 90)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 90)
+				(length 1.27)
+				(name "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 90)
+				(length 1.27)
+				(name "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 0 90)
+				(length 1.27)
+				(name "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1x10"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x10"
+			(at 0 6.096 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5mm;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "691305140010"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x10_0_1"
+			(polyline
+				(pts
+					(xy -11.43 1.27) (xy -12.446 1.27) (xy -12.7 1.524) (xy -12.7 3.556) (xy -12.446 3.81) (xy -10.414 3.81)
+					(xy -10.16 3.556) (xy -10.16 1.524) (xy -10.414 1.27) (xy -11.43 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 1.27) (xy -9.906 1.27) (xy -10.16 1.524) (xy -10.16 3.556) (xy -9.906 3.81) (xy -7.874 3.81)
+					(xy -7.62 3.556) (xy -7.62 1.524) (xy -7.874 1.27) (xy -8.89 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 1.27) (xy -7.366 1.27) (xy -7.62 1.524) (xy -7.62 3.556) (xy -7.366 3.81) (xy -5.334 3.81)
+					(xy -5.08 3.556) (xy -5.08 1.524) (xy -5.334 1.27) (xy -6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -4.826 1.27) (xy -5.08 1.524) (xy -5.08 3.556) (xy -4.826 3.81) (xy -2.794 3.81)
+					(xy -2.54 3.556) (xy -2.54 1.524) (xy -2.794 1.27) (xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -2.286 1.27) (xy -2.54 1.524) (xy -2.54 3.556) (xy -2.286 3.81) (xy -0.254 3.81)
+					(xy 0 3.556) (xy 0 1.524) (xy -0.254 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 0.254 1.27) (xy 0 1.524) (xy 0 3.556) (xy 0.254 3.81) (xy 2.286 3.81) (xy 2.54 3.556)
+					(xy 2.54 1.524) (xy 2.286 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.27) (xy 2.794 1.27) (xy 2.54 1.524) (xy 2.54 3.556) (xy 2.794 3.81) (xy 4.826 3.81)
+					(xy 5.08 3.556) (xy 5.08 1.524) (xy 4.826 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 5.334 1.27) (xy 5.08 1.524) (xy 5.08 3.556) (xy 5.334 3.81) (xy 7.366 3.81)
+					(xy 7.62 3.556) (xy 7.62 1.524) (xy 7.366 1.27) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 1.27) (xy 7.874 1.27) (xy 7.62 1.524) (xy 7.62 3.556) (xy 7.874 3.81) (xy 9.906 3.81)
+					(xy 10.16 3.556) (xy 10.16 1.524) (xy 9.906 1.27) (xy 8.89 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 1.27) (xy 10.414 1.27) (xy 10.16 1.524) (xy 10.16 3.556) (xy 10.414 3.81) (xy 12.446 3.81)
+					(xy 12.7 3.556) (xy 12.7 1.524) (xy 12.446 1.27) (xy 11.43 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 1.27) (xy 10.414 1.27) (xy 10.16 1.524) (xy 10.16 3.556) (xy 10.414 3.81) (xy 12.446 3.81)
+					(xy 12.7 3.556) (xy 12.7 1.524) (xy 12.446 1.27) (xy 11.43 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.938 1.778) (xy -12.192 2.032) (xy -11.684 2.54) (xy -12.192 3.048) (xy -11.938 3.302) (xy -11.43 2.794)
+					(xy -10.922 3.302) (xy -10.668 3.048) (xy -11.176 2.54) (xy -10.668 2.032) (xy -10.922 1.778) (xy -11.43 2.286)
+					(xy -11.938 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.398 1.778) (xy -9.652 2.032) (xy -9.144 2.54) (xy -9.652 3.048) (xy -9.398 3.302) (xy -8.89 2.794)
+					(xy -8.382 3.302) (xy -8.128 3.048) (xy -8.636 2.54) (xy -8.128 2.032) (xy -8.382 1.778) (xy -8.89 2.286)
+					(xy -9.398 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.858 1.778) (xy -7.112 2.032) (xy -6.604 2.54) (xy -7.112 3.048) (xy -6.858 3.302) (xy -6.35 2.794)
+					(xy -5.842 3.302) (xy -5.588 3.048) (xy -6.096 2.54) (xy -5.588 2.032) (xy -5.842 1.778) (xy -6.35 2.286)
+					(xy -6.858 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.318 1.778) (xy -4.572 2.032) (xy -4.064 2.54) (xy -4.572 3.048) (xy -4.318 3.302) (xy -3.81 2.794)
+					(xy -3.302 3.302) (xy -3.048 3.048) (xy -3.556 2.54) (xy -3.048 2.032) (xy -3.302 1.778) (xy -3.81 2.286)
+					(xy -4.318 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 1.778) (xy -2.032 2.032) (xy -1.524 2.54) (xy -2.032 3.048) (xy -1.778 3.302) (xy -1.27 2.794)
+					(xy -0.762 3.302) (xy -0.508 3.048) (xy -1.016 2.54) (xy -0.508 2.032) (xy -0.762 1.778) (xy -1.27 2.286)
+					(xy -1.778 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 0.508 2.032) (xy 1.016 2.54) (xy 0.508 3.048) (xy 0.762 3.302) (xy 1.27 2.794)
+					(xy 1.778 3.302) (xy 2.032 3.048) (xy 1.524 2.54) (xy 2.032 2.032) (xy 1.778 1.778) (xy 1.27 2.286)
+					(xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 1.778) (xy 3.048 2.032) (xy 3.556 2.54) (xy 3.048 3.048) (xy 3.302 3.302) (xy 3.81 2.794)
+					(xy 4.318 3.302) (xy 4.572 3.048) (xy 4.064 2.54) (xy 4.572 2.032) (xy 4.318 1.778) (xy 3.81 2.286)
+					(xy 3.302 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 1.778) (xy 3.048 2.032) (xy 3.556 2.54) (xy 3.048 3.048) (xy 3.302 3.302) (xy 3.81 2.794)
+					(xy 4.318 3.302) (xy 4.572 3.048) (xy 4.064 2.54) (xy 4.572 2.032) (xy 4.318 1.778) (xy 3.81 2.286)
+					(xy 3.302 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 1.778) (xy 5.588 2.032) (xy 6.096 2.54) (xy 5.588 3.048) (xy 5.842 3.302) (xy 6.35 2.794)
+					(xy 6.858 3.302) (xy 7.112 3.048) (xy 6.604 2.54) (xy 7.112 2.032) (xy 6.858 1.778) (xy 6.35 2.286)
+					(xy 5.842 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 1.778) (xy 5.588 2.032) (xy 6.096 2.54) (xy 5.588 3.048) (xy 5.842 3.302) (xy 6.35 2.794)
+					(xy 6.858 3.302) (xy 7.112 3.048) (xy 6.604 2.54) (xy 7.112 2.032) (xy 6.858 1.778) (xy 6.35 2.286)
+					(xy 5.842 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.382 1.778) (xy 8.128 2.032) (xy 8.636 2.54) (xy 8.128 3.048) (xy 8.382 3.302) (xy 8.89 2.794)
+					(xy 9.398 3.302) (xy 9.652 3.048) (xy 9.144 2.54) (xy 9.652 2.032) (xy 9.398 1.778) (xy 8.89 2.286)
+					(xy 8.382 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.922 1.778) (xy 10.668 2.032) (xy 11.176 2.54) (xy 10.668 3.048) (xy 10.922 3.302) (xy 11.43 2.794)
+					(xy 11.938 3.302) (xy 12.192 3.048) (xy 11.684 2.54) (xy 12.192 2.032) (xy 11.938 1.778) (xy 11.43 2.286)
+					(xy 10.922 1.778)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x10_1_1"
+			(pin passive line
+				(at -11.43 0 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 0 90)
+				(length 1.27)
+				(name "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 0 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 90)
+				(length 1.27)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 90)
+				(length 1.27)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 0 90)
+				(length 1.27)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 0 90)
+				(length 1.27)
+				(name "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 90)
+				(length 1.27)
+				(name "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 90)
+				(length 1.27)
+				(name "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 90)
+				(length 1.27)
+				(name "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 90)
+				(length 1.27)
+				(name "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 0 90)
+				(length 1.27)
+				(name "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
 )

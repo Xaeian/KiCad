@@ -74,15 +74,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "TME"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "NAND_0_1"
 			(arc
 				(start 0 -2.54)
@@ -278,15 +269,6 @@
 		)
 		(property "Code" "74LVC1G58"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "TME"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)

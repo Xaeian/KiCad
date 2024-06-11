@@ -71,15 +71,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser;"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "BQ24382_0_1"
 			(polyline
 				(pts
@@ -321,15 +312,6 @@
 		)
 		(property "Code" "BQ24650RVAR"
 			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -745,15 +727,6 @@
 		)
 		(property "Code" "BQ25792YBGR"
 			(at 0 -38.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -39.37 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1414,15 +1387,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "L6924U_0_1"
 			(rectangle
 				(start -5.08 13.97)
@@ -1860,7 +1824,7 @@
 				(hide yes)
 			)
 		)
-		(property "lCSC" "C511310"
+		(property "Code2" "C511310"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -2356,15 +2320,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "MP2617_0_1"
 			(rectangle
 				(start -5.08 12.7)
@@ -2834,15 +2789,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "SPV1040_0_1"
 			(rectangle
 				(start -5.08 5.08)
@@ -3154,15 +3100,6 @@
 		)
 		(property "Code" "STBC08PMR"
 			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Masters;"
-			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.762 0.762)

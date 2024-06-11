@@ -1,0 +1,137 @@
+(footprint "Ø8.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "THT")
+	(property "Reference" "REF**"
+		(at 0 -0.8 0)
+		(layer "F.Fab")
+		(uuid "244c878f-7a6c-4b5c-87b2-9cd8b1911d83")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.13)
+			)
+		)
+	)
+	(property "Value" "Ø8.0"
+		(at 0 0.8 0)
+		(layer "F.Fab")
+		(uuid "74a45cc2-f55d-4cea-94ec-faa9b31baa5c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.13)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6efeaea8-6d48-41ef-a152-b7787c7d7e43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "223a000a-cad4-4644-9c90-322684382312")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8132fc1-6d63-4137-8e5f-30c84028e591")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6b6b025c-f2ce-4ee2-b05b-daa9847648b1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1d8eb71c-baab-408c-9dad-b8069fe8dd64")
+	)
+	(fp_arc
+		(start -2.19009 3.583784)
+		(mid -4.2 0)
+		(end -2.19009 -3.583784)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "effdaa53-d680-48a2-a6b1-9beb4e61ec03")
+	)
+	(fp_arc
+		(start 2.19009 -3.583784)
+		(mid 4.2 0)
+		(end 2.19009 3.583784)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "454e69a0-ca36-4285-9a0d-22fa4c720450")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f15c56df-db69-40c7-b737-371ebae21584")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4cc962f-6cd2-4a1c-ad85-f99473511290")
+	)
+	(model "${L3D}/Inductor/Ø8mm-L10mm.step"
+		(offset
+			(xyz 0 0 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

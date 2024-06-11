@@ -2,7 +2,6 @@
   (version 7)
   (lib (name "Audio")(type "KiCad")(uri "${LSB}/Audio.kicad_sym")(options "")(descr ""))
   (lib (name "Charger")(type "KiCad")(uri "${LSB}/Charger.kicad_sym")(options "")(descr ""))
-  (lib (name "Clamp")(type "KiCad")(uri "${LSB}/Clamp.kicad_sym")(options "")(descr ""))
   (lib (name "Connector")(type "KiCad")(uri "${LSB}/Connector.kicad_sym")(options "")(descr ""))
   (lib (name "Digital")(type "KiCad")(uri "${LSB}/Digital.kicad_sym")(options "")(descr ""))
   (lib (name "Diode")(type "KiCad")(uri "${LSB}/Diode.kicad_sym")(options "")(descr ""))

@@ -74,15 +74,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "-"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Ammeter_0_1"
 			(polyline
 				(pts
@@ -24131,15 +24122,6 @@
 				(hide yes)
 			)
 		)
-		(property "Count" "2"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Terminal2_0_1"
 			(circle
 				(center -1.27 -1.27)
@@ -24426,15 +24408,6 @@
 		)
 		(property "Supplier" "TME"
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "3"
-			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -24833,15 +24806,6 @@
 		)
 		(property "Supplier" "TME"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "4"
-			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -25345,15 +25309,6 @@
 		)
 		(property "Supplier" "TME"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "5"
-			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -25962,15 +25917,6 @@
 		)
 		(property "Supplier" "TME"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Count" "6"
-			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 0.762 0.762)

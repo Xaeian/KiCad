@@ -73,7 +73,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7419965"
+		(property "Code2" "C7419965"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -334,7 +334,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32901"
+		(property "Code2" "C32901"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -700,15 +700,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "MAX4466_0_1"
 			(polyline
 				(pts
@@ -917,15 +908,6 @@
 		)
 		(property "Code" "MAX4466EXK+T"
 			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1176,15 +1158,6 @@
 		)
 		(property "Code" "MCP6N16-010E/MF"
 			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1484,15 +1457,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Mouser"
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "OpAmp_0_0"
 			(pin power_in line
 				(at 0 -3.81 90)
@@ -1690,15 +1654,6 @@
 		)
 		(property "Code" "MCP6002-E/MCVAO"
 			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1959,15 +1914,6 @@
 		)
 		(property "Code" "MCP6004T-E/STVAO"
 			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 0.762 0.762)
