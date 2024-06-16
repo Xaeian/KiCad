@@ -2268,7 +2268,7 @@
 			)
 		)
 	)
-	(symbol "Jumper-Gape"
+	(symbol "Jumper-Close"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -2283,7 +2283,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper-Gape"
+		(property "Value" "Jumper-Close"
 			(at 0 -1.524 0)
 			(effects
 				(font
@@ -2338,23 +2338,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Jumper-Gape_0_1"
-			(polyline
-				(pts
-					(xy -1.524 0.254) (xy -1.524 -0.254) (xy -0.508 -0.254) (xy -0.254 0) (xy -0.508 0.254) (xy -1.524 0.254)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 0.254) (xy 0.508 0) (xy 0.254 -0.254) (xy 1.524 -0.254) (xy 1.524 0.254) (xy 0.254 0.254)
-				)
+		(symbol "Jumper-Close_0_1"
+			(rectangle
+				(start -1.524 0.254)
+				(end 1.524 -0.254)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2364,7 +2351,7 @@
 				)
 			)
 		)
-		(symbol "Jumper-Gape_1_1"
+		(symbol "Jumper-Close_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.016)
@@ -2403,7 +2390,7 @@
 			)
 		)
 	)
-	(symbol "Jumper-Short"
+	(symbol "Jumper-Open"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -2418,7 +2405,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper-Short"
+		(property "Value" "Jumper-Open"
 			(at 0 -1.524 0)
 			(effects
 				(font
@@ -2473,10 +2460,23 @@
 				(hide yes)
 			)
 		)
-		(symbol "Jumper-Short_0_1"
-			(rectangle
-				(start -1.524 0.254)
-				(end 1.524 -0.254)
+		(symbol "Jumper-Open_0_1"
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy -1.524 -0.254) (xy -0.508 -0.254) (xy -0.254 0) (xy -0.508 0.254) (xy -1.524 0.254)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0.254) (xy 0.508 0) (xy 0.254 -0.254) (xy 1.524 -0.254) (xy 1.524 0.254) (xy 0.254 0.254)
+				)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2486,7 +2486,7 @@
 				)
 			)
 		)
-		(symbol "Jumper-Short_1_1"
+		(symbol "Jumper-Open_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.016)
@@ -2516,6 +2516,253 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LC-Filter"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LC"
+			(at 0 3.302 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "Filter"
+			(at 0 2.032 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -1.905 0)
+			(effects
+				(font
+					(size 0.381 0.381)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bandpass Filter; 2.45GHz; 50Ω;"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "LFB182G45CGFD436"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LC-Filter_0_1"
+			(rectangle
+				(start -1.905 -0.635)
+				(end 1.905 -0.889)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start -1.651 0.762)
+				(mid -1.844 0.403)
+				(end -1.905 0)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.889 0.762)
+				(mid -1.27 0.9659)
+				(end -1.651 0.762)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.635 0)
+				(mid -0.6913 0.4046)
+				(end -0.889 0.762)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.381 0.762)
+				(mid -0.574 0.403)
+				(end -0.635 0)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.381 0.762)
+				(mid 0 0.9659)
+				(end -0.381 0.762)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 0)
+				(mid 0.5787 0.4046)
+				(end 0.381 0.762)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.889 0.762)
+				(mid 0.696 0.403)
+				(end 0.635 0)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.651 0.762)
+				(mid 1.27 0.9659)
+				(end 0.889 0.762)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.905 0)
+				(mid 1.8487 0.4046)
+				(end 1.651 0.762)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LC-Filter_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 0.635)
+				(name "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.635)
+				(name "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.778)
+				(name "3"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0.508 0.508)

@@ -15804,6 +15804,39 @@
 			)
 		)
 		(symbol "STM32G0-UFQFPN48_1_1"
+			(rectangle
+				(start -19.431 -0.889)
+				(end -18.669 -1.651)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -19.431 1.651)
+				(end -18.669 0.889)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -19.431 6.731)
+				(end -18.669 5.969)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center -19.05 -8.89)
 				(radius 0.381)
@@ -15892,42 +15925,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.304 -1.016) (xy -19.304 -1.524) (xy -18.796 -1.524) (xy -18.796 -1.016) (xy -19.304 -1.016)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.304 1.524) (xy -19.304 1.016) (xy -18.796 1.016) (xy -18.796 1.524) (xy -19.304 1.524)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.304 6.604) (xy -19.304 6.096) (xy -18.796 6.096) (xy -18.796 6.604) (xy -19.304 6.604)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
 				)
 			)
 			(pin passive line
@@ -16814,7 +16811,820 @@
 			)
 		)
 	)
-	(symbol "STM32WB55Cx"
+	(symbol "STM32WB09"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "IC"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32WB09"
+			(at -0.254 6.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 6.35 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microcontroller;"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ST Microelectronics"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "STM32L0xxxx"
+			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "STM32WB09_0_1"
+			(polyline
+				(pts
+					(xy -13.97 11.43) (xy -11.43 13.97) (xy 11.43 13.97) (xy 13.97 11.43) (xy 13.97 -11.43) (xy 11.43 -13.97)
+					(xy -11.43 -13.97) (xy -13.97 -11.43) (xy -13.97 11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 1.27 13.97)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 3.81 13.97)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 8.89 13.97)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 13.97 -1.27)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 13.97 1.27)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "STM32WB09_1_1"
+			(rectangle
+				(start -9.271 14.351)
+				(end -8.509 13.589)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -2.54) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 -2.286) (xy 0.254 -2.286)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.889 -13.589)
+				(end 1.651 -14.351)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 5.969 -13.589)
+				(end 6.731 -14.351)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 5.969 14.351)
+				(end 6.731 13.589)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 13.589 9.271)
+				(end 14.351 8.509)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 8.89 0)
+				(length 2.54)
+				(name "PB3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 -16.51 90)
+				(length 2.54)
+				(name "PA9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -16.51 90)
+				(length 2.54)
+				(name "PA10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -1.27 -16.51 90)
+				(length 2.54)
+				(name "PA11"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 -16.51 90)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 -16.51 90)
+				(length 2.54)
+				(name "RF1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 -16.51 90)
+				(length 2.54)
+				(name "VCC-RF"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 8.89 -16.51 90)
+				(length 2.54)
+				(name "OSC1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -8.89 180)
+				(length 2.54)
+				(name "OSC2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -6.35 180)
+				(length 2.54)
+				(name "PB15"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -3.81 180)
+				(length 2.54)
+				(name "PB14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 6.35 0)
+				(length 2.54)
+				(name "PB2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -1.27 180)
+				(length 2.54)
+				(name "PB13(OSC32-IN)"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 1.27 180)
+				(length 2.54)
+				(name "PB12(OSC32-OUT)"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 3.81 180)
+				(length 2.54)
+				(name "PB7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 6.35 180)
+				(length 2.54)
+				(name "PB6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 16.51 8.89 180)
+				(length 2.54)
+				(name "VDDSD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 16.51 270)
+				(length 2.54)
+				(name "VLXSD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 16.51 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 16.51 270)
+				(length 2.54)
+				(name "VFBSD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 16.51 270)
+				(length 2.54)
+				(name "VCAP"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -1.27 16.51 270)
+				(length 2.54)
+				(name "nRST"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 3.81 0)
+				(length 2.54)
+				(name "PB1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 16.51 270)
+				(length 2.54)
+				(name "PB5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -6.35 16.51 270)
+				(length 2.54)
+				(name "PB4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 16.51 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 1.27 0)
+				(length 2.54)
+				(name "PB0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -1.27 0)
+				(length 2.54)
+				(name "PA3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -3.81 0)
+				(length 2.54)
+				(name "PA2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -6.35 0)
+				(length 2.54)
+				(name "PA1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -16.51 -8.89 0)
+				(length 2.54)
+				(name "PA0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -8.89 -16.51 90)
+				(length 2.54)
+				(name "PA8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "STM32WB55"
 		(pin_names
 			(offset 1.016)
 		)
@@ -16829,7 +17639,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32WB55Cx"
+		(property "Value" "STM32WB55"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -16838,27 +17648,26 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 1.27 -8.89 0)
+		(property "Footprint" "QFN:QFN48"
+			(at 0 -35.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(italic yes)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://sqrt.pl/doc/STM32WB55x.pdf"
 			(at 0 -34.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Microcontroller;"
-			(at 0 -34.29 0)
+		(property "Description" "Microcontroller; BT+USB; M4; M0+; Flash:1MB; RAM:256KB;"
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -16867,7 +17676,7 @@
 			)
 		)
 		(property "Manufacturer" "ST Microelectronics"
-			(at 0 -32.004 0)
+			(at 0 -30.48 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -16876,7 +17685,7 @@
 			)
 		)
 		(property "Code" "STM32G0B1CEU6"
-			(at 0 -33.274 0)
+			(at 0 -31.75 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -16884,7 +17693,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "STM32WB55Cx_0_1"
+		(symbol "STM32WB55_0_1"
 			(polyline
 				(pts
 					(xy -13.97 -19.05) (xy -16.51 -19.05) (xy -19.05 -16.51) (xy -19.05 16.51) (xy -16.51 19.05) (xy 16.51 19.05)
@@ -16899,7 +17708,29 @@
 				)
 			)
 		)
-		(symbol "STM32WB55Cx_1_1"
+		(symbol "STM32WB55_1_1"
+			(rectangle
+				(start -19.431 -3.429)
+				(end -18.669 -4.191)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -19.431 14.351)
+				(end -18.669 13.589)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center -19.05 -1.27)
 				(radius 0.381)
@@ -16944,6 +17775,17 @@
 					(type outline)
 				)
 			)
+			(rectangle
+				(start -14.351 19.431)
+				(end -13.589 18.669)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy -0.508 -5.08) (xy 0.508 -5.08)
@@ -16968,145 +17810,23 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -19.304 -3.556) (xy -19.304 -4.064) (xy -18.796 -4.064) (xy -18.796 -3.556) (xy -19.304 -3.556)
-				)
+			(rectangle
+				(start 3.429 -18.669)
+				(end 4.191 -19.431)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type outline)
 				)
 			)
-			(polyline
-				(pts
-					(xy -19.304 14.224) (xy -19.304 13.716) (xy -18.796 13.716) (xy -18.796 14.224) (xy -19.304 14.224)
-				)
+			(rectangle
+				(start 5.969 19.431)
+				(end 6.731 18.669)
 				(stroke
 					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -14.224 19.304) (xy -14.224 18.796) (xy -13.716 18.796) (xy -13.716 19.304) (xy -14.224 19.304)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.556 -18.796) (xy 3.556 -19.304) (xy 4.064 -19.304) (xy 4.064 -18.796) (xy 3.556 -18.796)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.096 19.304) (xy 6.096 18.796) (xy 6.604 18.796) (xy 6.604 19.304) (xy 6.096 19.304)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.636 -18.796) (xy 8.636 -19.304) (xy 9.144 -19.304) (xy 9.144 -18.796) (xy 8.636 -18.796)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 11.176 -18.796) (xy 11.176 -19.304) (xy 11.684 -19.304) (xy 11.684 -18.796) (xy 11.176 -18.796)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 18.796 1.524) (xy 18.796 1.016) (xy 19.304 1.016) (xy 19.304 1.524) (xy 18.796 1.524)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 18.796 4.064) (xy 18.796 3.556) (xy 19.304 3.556) (xy 19.304 4.064) (xy 18.796 4.064)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 18.796 6.604) (xy 18.796 6.096) (xy 19.304 6.096) (xy 19.304 6.604) (xy 18.796 6.604)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 18.796 9.144) (xy 18.796 8.636) (xy 19.304 8.636) (xy 19.304 9.144) (xy 18.796 9.144)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 18.796 11.684) (xy 18.796 11.176) (xy 19.304 11.176) (xy 19.304 11.684) (xy 18.796 11.684)
-				)
-				(stroke
-					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type outline)
@@ -17123,12 +17843,56 @@
 					(type outline)
 				)
 			)
+			(rectangle
+				(start 8.509 -18.669)
+				(end 9.271 -19.431)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 11.049 -18.669)
+				(end 11.811 -19.431)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center 13.9294 -19.0361)
 				(radius 0.381)
 				(stroke
 					(width 0)
 					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 18.669 4.191)
+				(end 19.431 3.429)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 18.669 11.811)
+				(end 19.431 11.049)
+				(stroke
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type outline)
@@ -17158,6 +17922,39 @@
 			)
 			(circle
 				(center 19.05 -8.89)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 19.05 1.27)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 19.05 6.35)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 19.05 8.89)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -17440,7 +18237,7 @@
 			(pin power_in line
 				(at 8.89 -21.59 90)
 				(length 2.54)
-				(name "VSSRF"
+				(name "GND-RF"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17458,7 +18255,7 @@
 			(pin power_in line
 				(at 11.43 -21.59 90)
 				(length 2.54)
-				(name "VDDRF"
+				(name "VCC-RF"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17617,10 +18414,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 21.59 1.27 180)
 				(length 2.54)
-				(name "VFBSMPS"
+				(name "VFB-SMPS"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17638,7 +18435,7 @@
 			(pin power_in line
 				(at 21.59 3.81 180)
 				(length 2.54)
-				(name "VSSSMPS"
+				(name "GND-SMPS"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17653,10 +18450,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 21.59 6.35 180)
 				(length 2.54)
-				(name "VLXSMPS"
+				(name "VLX-SMPS"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17674,7 +18471,7 @@
 			(pin power_in line
 				(at 21.59 8.89 180)
 				(length 2.54)
-				(name "VDDSMPS"
+				(name "VCC-SMPS"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17764,7 +18561,7 @@
 			(pin bidirectional line
 				(at 8.89 21.59 270)
 				(length 2.54)
-				(name "PA13"
+				(name "PA13(SWDIO)"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17782,7 +18579,7 @@
 			(pin bidirectional line
 				(at -21.59 6.35 0)
 				(length 2.54)
-				(name "PH3-BOOT0"
+				(name "PH3(BOOT0)"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17800,7 +18597,7 @@
 			(pin power_in line
 				(at 6.35 21.59 270)
 				(length 2.54)
-				(name "VDDUSB"
+				(name "VCC-USB"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17818,7 +18615,7 @@
 			(pin bidirectional line
 				(at 3.81 21.59 270)
 				(length 2.54)
-				(name "PA14"
+				(name "PA14(SWCLK)"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -17998,7 +18795,7 @@
 			(pin bidirectional line
 				(at -21.59 -1.27 0)
 				(length 2.54)
-				(name "NRST"
+				(name "nRST"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -18016,7 +18813,7 @@
 			(pin power_in line
 				(at -21.59 -3.81 0)
 				(length 2.54)
-				(name "VDDA"
+				(name "VREF+"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -18095,7 +18892,7 @@
 			)
 		)
 		(property "Description" "Microcontroller;"
-			(at 0 -43.18 0)
+			(at 0 -41.91 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -20446,800 +21243,6 @@
 					)
 				)
 				(number "B2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "STM3WB09xE"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "IC"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STM3WB09xE"
-			(at -0.254 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 6.35 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 5.08 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Microcontroller;"
-			(at 0 -33.274 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ST Microelectronics"
-			(at 0 -29.464 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "STM32L0xxxx"
-			(at 0 -31.496 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "STM3WB09xE_0_1"
-			(polyline
-				(pts
-					(xy -9.144 14.224) (xy -9.144 13.716) (xy -8.636 13.716) (xy -8.636 14.224) (xy -9.144 14.224)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 -13.716) (xy 1.016 -14.224) (xy 1.524 -14.224) (xy 1.524 -13.716) (xy 1.016 -13.716)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.096 -13.716) (xy 6.096 -14.224) (xy 6.604 -14.224) (xy 6.604 -13.716) (xy 6.096 -13.716)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.096 14.224) (xy 6.096 13.716) (xy 6.604 13.716) (xy 6.604 14.224) (xy 6.096 14.224)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 13.716 9.144) (xy 13.716 8.636) (xy 14.224 8.636) (xy 14.224 9.144) (xy 13.716 9.144)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -13.97 11.43) (xy -11.43 13.97) (xy 10.16 13.97) (xy 11.43 13.97) (xy 13.97 11.43) (xy 13.97 -11.43)
-					(xy 11.43 -13.97) (xy -11.43 -13.97) (xy -13.97 -11.43) (xy -13.97 11.43)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center 1.27 13.97)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 3.81 13.97)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 8.89 13.97)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 13.97 -1.27)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 13.97 1.27)
-				(radius 0.381)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-		)
-		(symbol "STM3WB09xE_1_1"
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 8.89 0)
-				(length 2.54)
-				(name "PB3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -6.35 -16.51 90)
-				(length 2.54)
-				(name "PA9"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 -16.51 90)
-				(length 2.54)
-				(name "PA10"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -1.27 -16.51 90)
-				(length 2.54)
-				(name "PA11"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 1.27 -16.51 90)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 3.81 -16.51 90)
-				(length 2.54)
-				(name "RF1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 6.35 -16.51 90)
-				(length 2.54)
-				(name "VDDRF"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 8.89 -16.51 90)
-				(length 2.54)
-				(name "OSCOUT"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -8.89 180)
-				(length 2.54)
-				(name "OSCIN"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -6.35 180)
-				(length 2.54)
-				(name "PB15"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -3.81 180)
-				(length 2.54)
-				(name "PB14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 6.35 0)
-				(length 2.54)
-				(name "PB2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 -1.27 180)
-				(length 2.54)
-				(name "PB13(OSC32-IN)"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 1.27 180)
-				(length 2.54)
-				(name "PB12(OSC32-OUT)"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 3.81 180)
-				(length 2.54)
-				(name "PB7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 16.51 6.35 180)
-				(length 2.54)
-				(name "PB6"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 16.51 8.89 180)
-				(length 2.54)
-				(name "VDDSD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 8.89 16.51 270)
-				(length 2.54)
-				(name "VLXSD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 6.35 16.51 270)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 3.81 16.51 270)
-				(length 2.54)
-				(name "VFBSD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 1.27 16.51 270)
-				(length 2.54)
-				(name "VCAP"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -1.27 16.51 270)
-				(length 2.54)
-				(name "RSTN"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 3.81 0)
-				(length 2.54)
-				(name "PB1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 16.51 270)
-				(length 2.54)
-				(name "PB5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -6.35 16.51 270)
-				(length 2.54)
-				(name "PB4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -8.89 16.51 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 1.27 0)
-				(length 2.54)
-				(name "PB0"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 -1.27 0)
-				(length 2.54)
-				(name "PA3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 -3.81 0)
-				(length 2.54)
-				(name "PA2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 -6.35 0)
-				(length 2.54)
-				(name "PA1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -16.51 -8.89 0)
-				(length 2.54)
-				(name "PA0"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -8.89 -16.51 90)
-				(length 2.54)
-				(name "PA8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 0.762 0.762)

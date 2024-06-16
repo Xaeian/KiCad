@@ -1889,7 +1889,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 7.62 13.97 180)
 				(length 2.54)
 				(name "OUT"
@@ -3072,7 +3072,7 @@
 			)
 		)
 		(property "Datasheet" "http://sqrt.pl/datasheet/STBC08.pdf"
-			(at 0 -5.08 0)
+			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 0.762 0.762)
