@@ -491,7 +491,7 @@
     (property "Footprint" "" (at -0.762 -1.27 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "-" (at 0 -7.62 0)
+    (property "Datasheet" "" (at 0 -7.62 0)
       (effects (font (size 0.762 0.762)) hide)
     )
     (property "Manufacturer" "Würth Elektronik" (at 0 -8.89 0)

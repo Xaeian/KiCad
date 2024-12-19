@@ -1,0 +1,165 @@
+(footprint "MS191-10C"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Shield")
+	(property "Reference" "REF**"
+		(at 0 1 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60fea25d-61da-4bff-a79b-ad9929ca1856")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "MS191-10C"
+		(at 0 -1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c6c1909-eba1-4fd3-a347-3c6f70e487a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.18)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88286e60-a1c1-4f54-804c-26710c11283d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9cb1520-68a1-4e1c-9838-c0bebe313ac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9cc2f4d7-b479-44f0-98b2-2dd56a65a3d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9.4 -8)
+		(end -9.4 8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "e48e7324-f2c2-4c57-ae8a-cf43ee086270")
+	)
+	(fp_line
+		(start -7.6 -9.8)
+		(end 7.6 -9.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3db2e302-5c66-4ee2-892c-d86f69dfa62b")
+	)
+	(fp_line
+		(start -7.6 9.8)
+		(end 7.6 9.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "7066864b-8504-44a9-bceb-49c282f8c724")
+	)
+	(fp_line
+		(start 9.4 -8)
+		(end 9.4 8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "1211aaac-445e-4068-a847-9efaf066a946")
+	)
+	(fp_arc
+		(start -9.4 -8)
+		(mid -8.872792 -9.272792)
+		(end -7.6 -9.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "d708bce4-ed7f-4b7c-a148-3f2b21a0d07f")
+	)
+	(fp_arc
+		(start -7.6 9.8)
+		(mid -8.872792 9.272792)
+		(end -9.4 8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "45b79e95-6d2a-40f9-b36a-3d57b49ff3af")
+	)
+	(fp_arc
+		(start 7.6 -9.8)
+		(mid 8.872792 -9.272792)
+		(end 9.4 -8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c4b50626-27fb-4026-b835-020fedc2bbfb")
+	)
+	(fp_arc
+		(start 9.4 8)
+		(mid 8.872792 9.272792)
+		(end 7.6 9.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "ab087bbe-3b12-40e4-ae86-39fa35e83aeb")
+	)
+	(model "${L3D}/Hardware/MS191-10C.step"
+		(offset
+			(xyz 0 0 3.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

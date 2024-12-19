@@ -32,7 +32,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -27.94 0)
 			(effects
 				(font
@@ -900,7 +900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -4687,50 +4687,6 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center -2.794 -34.29)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -2.794 -34.29)
-				(radius 1.016)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -2.794 -31.75)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center -2.794 -31.75)
-				(radius 1.016)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -3.81 -25.4) (xy -2.54 -26.67) (xy 2.54 -26.67) (xy 3.81 -25.4) (xy 3.81 25.4) (xy 2.54 26.67)
@@ -4742,50 +4698,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(circle
-				(center 2.794 -34.29)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 2.794 -34.29)
-				(radius 1.016)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.794 -31.75)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 2.794 -31.75)
-				(radius 1.016)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(circle
@@ -5651,78 +5563,6 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -31.75 0)
-				(length 3.81)
-				(name "M1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -31.75 180)
-				(length 3.81)
-				(name "M2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -34.29 0)
-				(length 3.81)
-				(name "M3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -34.29 180)
-				(length 3.81)
-				(name "M4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -7.62 19.05 0)
 				(length 3.81)
 				(name "SCL.1"
@@ -5847,7 +5687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 1.27 0)
 			(effects
 				(font

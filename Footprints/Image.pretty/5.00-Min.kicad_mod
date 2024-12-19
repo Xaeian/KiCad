@@ -1,0 +1,130 @@
+(footprint "5.00-Min"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LAB"
+		(at 2 0 -90)
+		(layer "F.SilkS")
+		(uuid "1fbe748c-684f-4fa0-abb2-17a9cba04942")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "5.00"
+		(at 2 0 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e439ad6d-ddd3-4e11-aee1-ef93d1d7e9f1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d550676c-fe33-4672-9089-04088de10088")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a93471a-59e0-480d-a69b-533a4233503f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40f029cc-0a5c-49e5-be2d-cce84cf26efe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -2.5)
+		(end 2.6 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d49673-9b41-4837-90e1-73cd229f01e6")
+	)
+	(fp_line
+		(start 0 2.5)
+		(end 2.6 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1414272-832d-433e-938f-70adbac13dc4")
+	)
+	(fp_line
+		(start 3.6 -1.5)
+		(end 2.6 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "611bd741-a454-4db3-9d3c-60c779627e80")
+	)
+	(fp_line
+		(start 3.6 1.5)
+		(end 2.6 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2587df99-2828-4c24-8122-a1bb3259d3a1")
+	)
+	(fp_line
+		(start 3.6 1.5)
+		(end 3.6 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05cc0e3a-0f50-491e-8a02-2d3b23b43245")
+	)
+	(fp_poly
+		(pts
+			(xy 0.562 2.5) (xy 0 2.5) (xy 0 -2.5) (xy 0.562 -2.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8d985656-a7d0-417b-ba0d-66cfd8d50156")
+	)
+)

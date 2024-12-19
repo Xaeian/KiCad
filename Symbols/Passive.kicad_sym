@@ -903,7 +903,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:0603"
-			(at 0 -8.89 0)
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -920,26 +920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-"
+		(property "Description" ""
 			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "-"
-			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1069,7 +1051,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:0603"
-			(at 0 -10.16 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1086,26 +1068,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-"
+		(property "Description" ""
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Code" "-"
-			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 0.762 0.762)

@@ -565,7 +565,7 @@
 		(remove_unused_layers no)
 		(uuid "aa29754d-bb34-4ce8-bc18-0ae00bfd16f4")
 	)
-	(model "${L3D}/Header/THT-2.54-MA-1x03.step"
+	(model "${L3D}/GP2.54/HPlug-1x03.step"
 		(offset
 			(xyz 2.76 0 1.3)
 		)

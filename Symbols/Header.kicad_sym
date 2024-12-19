@@ -1738,6 +1738,458 @@
 			)
 		)
 	)
+	(symbol "1x09"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CN"
+			(at 0 12.192 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "1x09"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GP2.54:VPlug-1x09"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.54mm;"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Xfcn"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "PZ254V-11-09P"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1x09_0_1"
+			(rectangle
+				(start -0.3048 10.4648)
+				(end 0.3048 9.8552)
+				(stroke
+					(width 0.1016)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -10.16)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -7.62)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -5.08)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -2.54)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -11.43) (xy -0.508 -11.43) (xy -1.27 -10.668) (xy -1.27 -9.652) (xy -0.508 -8.89) (xy 0.508 -8.89)
+					(xy 1.27 -9.652) (xy 1.27 -10.668) (xy 0.508 -11.43) (xy 0 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -8.89) (xy -0.508 -8.89) (xy -1.27 -8.128) (xy -1.27 -7.112) (xy -0.508 -6.35) (xy 0.508 -6.35)
+					(xy 1.27 -7.112) (xy 1.27 -8.128) (xy 0.508 -8.89) (xy 0 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -6.35) (xy -0.508 -6.35) (xy -1.27 -5.588) (xy -1.27 -4.572) (xy -0.508 -3.81) (xy 0.508 -3.81)
+					(xy 1.27 -4.572) (xy 1.27 -5.588) (xy 0.508 -6.35) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy -0.508 -3.81) (xy -1.27 -3.048) (xy -1.27 -2.032) (xy -0.508 -1.27) (xy 0.508 -1.27)
+					(xy 1.27 -2.032) (xy 1.27 -3.048) (xy 0.508 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy -0.508 -1.27) (xy -1.27 -0.508) (xy -1.27 0.508) (xy -0.508 1.27) (xy 0.508 1.27)
+					(xy 1.27 0.508) (xy 1.27 -0.508) (xy 0.508 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -0.508 1.27) (xy -1.27 2.032) (xy -1.27 3.048) (xy -0.508 3.81) (xy 0.508 3.81)
+					(xy 1.27 3.048) (xy 1.27 2.032) (xy 0.508 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy -0.508 3.81) (xy -1.27 4.572) (xy -1.27 5.588) (xy -0.508 6.35) (xy 0.508 6.35)
+					(xy 1.27 5.588) (xy 1.27 4.572) (xy 0.508 3.81) (xy 0 3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy -0.508 6.35) (xy -1.27 7.112) (xy -1.27 8.128) (xy -0.508 8.89) (xy 0.508 8.89)
+					(xy 1.27 8.128) (xy 1.27 7.112) (xy 0.508 6.35) (xy 0 6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 8.89) (xy -0.508 8.89) (xy -1.27 9.652) (xy -1.27 10.668) (xy -0.508 11.43) (xy 0.508 11.43)
+					(xy 1.27 10.668) (xy 1.27 9.652) (xy 0.508 8.89) (xy 0 8.89)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 5.08)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 7.62)
+				(radius 0.3556)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "1x09_1_1"
+			(pin passive line
+				(at 0 10.16 0)
+				(length 0)
+				(name "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 0)
+				(length 0)
+				(name "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 0)
+				(length 0)
+				(name "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 0)
+				(length 0)
+				(name "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 0)
+				(name "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 0)
+				(name "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 0)
+				(name "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 0)
+				(length 0)
+				(name "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 0)
+				(name "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "1x10"
 		(pin_numbers hide)
 		(pin_names

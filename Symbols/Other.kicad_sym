@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -486,7 +486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -571,7 +571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -658,7 +658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -741,7 +741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -921,7 +921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -1057,7 +1057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -1145,7 +1145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -1255,7 +1255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1363,7 +1363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1487,7 +1487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -1598,7 +1598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1795,6 +1795,106 @@
 			)
 		)
 	)
+	(symbol "Shield"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SH"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "19x18x3mm"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -14.859 6.604 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "19x18x3mm;"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kraftberg"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "MS191-10C"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Shield_1_1"
+			(polyline
+				(pts
+					(xy 0 1.524) (xy -0.508 1.143) (xy -1.016 1.016) (xy -1.524 1.016) (xy -1.524 -0.508) (xy -1.016 -1.27)
+					(xy 0 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.524) (xy 0.508 1.143) (xy 1.016 1.016) (xy 1.524 1.016) (xy 1.524 -0.508) (xy 1.016 -1.27)
+					(xy 0 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+	)
 	(symbol "Spacer"
 		(pin_numbers hide)
 		(pin_names
@@ -1830,7 +1930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1950,7 +2050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2313,7 +2413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" ""
 			(at 0 -5.08 0)
 			(effects
 				(font

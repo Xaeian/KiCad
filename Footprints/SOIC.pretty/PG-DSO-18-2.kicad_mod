@@ -333,7 +333,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5e5e3a7d-7320-4655-8345-c8c17fb37589")
 	)
-	(model "${L3D}/SMD/PG-DSO-18-2.step"
+	(model "${L3D}/SOIC/PG-DSO-18-2.step"
 		(offset
 			(xyz 3.75 -6.4 0.25)
 		)

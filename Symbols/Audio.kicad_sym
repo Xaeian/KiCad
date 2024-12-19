@@ -9,7 +9,7 @@
     (property "Footprint" "" (at 3.048 -2.286 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "Datasheet" "-" (at 0 -2.54 0)
+    (property "Datasheet" "" (at 0 -2.54 0)
       (effects (font (size 0.762 0.762)) hide)
     )
     (property "Manufacturer" "Loudity" (at 0 -3.81 0)
